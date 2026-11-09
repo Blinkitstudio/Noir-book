@@ -38,7 +38,10 @@ No es animación: es **edición con material de archivo real** que escala décad
 
 Tratamiento: el archivo 4:3 va centrado dentro del 9:16 con textura de TV de tubo y fechas en Montserrat pequeña. El ritmo se acelera, los cortes se acortan y al final se corta el sonido de golpe.
 
-### Estado: corte v1 (2026-11-09)
+### Estado: corte v3 (2026-11-09)
+- v3: 64.5 s (media `7400858b-8748-4385-9b5d-6a7ab3123539`). Kennedy integrado: audio real del 22/10/1962, minuto 8:41–8:49 ("…risk the costs of worldwide nuclear war, in which even the fruits of victory would be ashes in our mouth"), sin alterar, sobre la tarjeta 1962 con onda de audio y subtítulo. Cierre con la voz de Raúl: "Sígueme para ver cómo sigue esta historia. Y guarda este video: así le llega a más gente", con SÍGUEME · @raulalbright · GUARDA EL VIDEO.
+
+### Corte v1
 - 54.6 s, 9:16, en la biblioteca de Higgsfield de Raúl (media `16a51f93-14e2-4bed-bd70-2091eea90941`).
 - Narración con la voz de Raúl (ElevenLabs, 6 frases). Pausas con el audio original de *Duck and Cover*, subtitulado en español: "Hay un destello, más brillante que el sol…", "Si hay una alerta…", "¡Es una bomba! Agáchate y cúbrete".
 - Faltan: el discurso de Kennedy (hay una tarjeta "22 · X · 1962" que lo reserva), el Noticiero A con el presentador (sigue a la tarjeta SEÑAL AUSTRAL) y música definitiva.

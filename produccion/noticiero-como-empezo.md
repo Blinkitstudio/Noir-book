@@ -38,6 +38,12 @@ No es animación: es **edición con material de archivo real** que escala décad
 
 Tratamiento: el archivo 4:3 va centrado dentro del 9:16 con textura de TV de tubo y fechas en Montserrat pequeña. El ritmo se acelera, los cortes se acortan y al final se corta el sonido de golpe.
 
+### Estado: corte v1 (2026-11-09)
+- 54.6 s, 9:16, en la biblioteca de Higgsfield de Raúl (media `16a51f93-14e2-4bed-bd70-2091eea90941`).
+- Narración con la voz de Raúl (ElevenLabs, 6 frases). Pausas con el audio original de *Duck and Cover*, subtitulado en español: "Hay un destello, más brillante que el sol…", "Si hay una alerta…", "¡Es una bomba! Agáchate y cúbrete".
+- Faltan: el discurso de Kennedy (hay una tarjeta "22 · X · 1962" que lo reserva), el Noticiero A con el presentador (sigue a la tarjeta SEÑAL AUSTRAL) y música definitiva.
+- Costo: 0 créditos de Higgsfield; unos 636 créditos de ElevenLabs por la narración.
+
 ### Reglas para el archivo real
 - Solo material de **dominio público** o con licencia comprobada, con la fuente anotada.
 - **Las personas reales nunca dicen nada que no dijeron.** No se doblan, no se recortan para cambiar el sentido y no se usan para anunciar la guerra de 2037. El archivo real termina en 1962; lo que viene después es ficción, con fechas y titulares inventados.

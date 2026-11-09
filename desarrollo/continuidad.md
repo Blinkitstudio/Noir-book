@@ -25,6 +25,13 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - Ciudades reconstruidas, operativas y mantenidas. Arquitectura monumental de concreto y metal, austera, impersonal, funcional. No representar toda la ciudad como ruinas abandonadas.
 - Vehículos voladores, plataformas, pasarelas, transporte cotidiano y mantenimiento activo.
 
+## Geopolítica de la guerra (decisiones del autor, 2026-11-09)
+- La guerra nuclear nace de la escalada entre Rusia, Estados Unidos y China. Ficción especulativa: sin líderes reales ni frases atribuidas a personas reales.
+- Las bombas caen en el hemisferio norte. Quedan relativamente a salvo Sudáfrica, el Cono Sur, Australia y Nueva Zelanda.
+- La guerra por los recursos de la Antártida enfrenta al Cono Sur con la unión de Australia y Nueva Zelanda. Ocurre décadas después, ya con réplicas como soldados.
+- Se cuenta en pantalla con noticieros dentro de la ficción (`produccion/noticiero-como-empezo.md`).
+- Año derivado, no confirmado: guerra nuclear en 2037 (200 años antes de 2237).
+
 ## Réplicas y máquinas
 - Réplicas: última creación humana para preservar sus mentes; cuerpos bioorgánicos con partes artificiales. Sienten, necesitan alimento y cuidados.
 - Mentes persistentes en centros de datos. Cuerpos que no envejecen, pero pueden dañarse o morir; pueden sustituirse.
@@ -50,7 +57,7 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 ## Pendiente de definir
 - Nombre del humano original dentro de la ficción y eventual descubrimiento.
 - Causas y fecha de su muerte posterior a la guerra.
-- Cronología de la guerra antártica y transición entre cuerpos.
+- Cronología exacta de la guerra antártica (década) y transición entre cuerpos.
 - Gobierno, propiedad de centros de datos y reglas de acceso a nuevos cuerpos.
 - Destino de las naves a Europa y de la mujer recordada.
 - Si una mente puede perderse definitivamente por destrucción de infraestructura; no afirmar invulnerabilidad absoluta sin definirlo.

@@ -43,6 +43,9 @@ Si una prueba gratis de video en ChatGPT da buena calidad, los planos de ambient
 - Morí en la Antártida. Por segunda vez.
 - Esta es la tercera.
 
+## Noticieros
+La historia de fondo (escalada entre Rusia, Estados Unidos y China; el sur a salvo; la guerra del hielo entre el Cono Sur y Australia–Nueva Zelanda) se cuenta con noticieros dentro de la ficción. Detalle en [noticiero-como-empezo.md](noticiero-como-empezo.md). El Noticiero A entra en la Parte 2, entre los planos 7 y 9. El Noticiero B entra en la Parte 3, antes del plano 19.
+
 ## Lista de planos
 | # | Parte | Dur. | Fuente | Plano | Voz |
 |---|---|---|---|---|---|

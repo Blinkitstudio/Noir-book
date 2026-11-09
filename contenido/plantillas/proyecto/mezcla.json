@@ -1,0 +1,10 @@
+{
+  "musica": {"archivo": "../_musica/tema.mp3", "volumen": 0.22, "inicio": 0, "ducking": true},
+  "sfx": [
+    {"t": 0.0, "tipo": "whoosh", "vol": 0.5},
+    {"t": 0.15, "tipo": "golpe", "vol": 0.5},
+    {"t": 9.0, "tipo": "impacto", "vol": 0.45},
+    {"t": 30.0, "tipo": "pop", "vol": 0.5}
+  ],
+  "lufs": -14
+}

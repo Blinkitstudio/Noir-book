@@ -1,0 +1,13 @@
+# material pesado: vive en ~/Movies/Vlogs, no en el repo
+*.mov
+*.MOV
+*.mp4
+*.m4v
+*.mkv
+*.heic
+*.HEIC
+trabajo/
+final/
+__pycache__/
+.DS_Store
+.env

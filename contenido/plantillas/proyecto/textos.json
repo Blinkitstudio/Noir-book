@@ -1,0 +1,11 @@
+{
+  "rojas": ["caro", "barato", "dólar", "nadie", "nunca", "mito"],
+  "correcciones": {"una gente": "un agente", "o 3": "o3"},
+  "ocultar": [[0.0, 2.2]],
+  "textos": [
+    {"s": 0.0, "e": 2.2, "txt": "¿BUENOS AIRES\nES PELIGROSO?", "estilo": "big", "y": 820, "fs": 110},
+    {"s": 2.2, "e": 6.0, "txt": "PALERMO · BUENOS AIRES", "estilo": "label"},
+    {"s": 9.0, "e": 11.0, "txt": "MITO", "estilo": "stamp"},
+    {"s": 30.0, "e": 33.0, "txt": "COMENTA: ¿SÍ O NO?", "estilo": "stamp", "giro": -4}
+  ]
+}

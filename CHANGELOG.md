@@ -1,6 +1,7 @@
 # Registro de cambios
 
 ## 2026-11-09
+- Nueva área `contenido/`: kit de edición de vlogs (ingesta, limpieza de voz con ElevenLabs, transcripción, corte 9:16, subtítulos en estilo propio, mezcla a -14 LUFS), efectos sintetizados, plantillas, guía `CLAUDE.md` y registro de aprendizajes.
 - Inicio del repositorio editorial de Alias.
 - Introducción nueva: sociedad reconstruida primero, memoria e identidad de Nuar después.
 - Fijadas tres vidas y dos muertes; segunda vida terminada en la guerra antártica.

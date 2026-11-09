@@ -1,0 +1,12 @@
+{
+  "grade": "calido",
+  "ambiente": 0.15,
+  "segmentos": [
+    {"clip": "IMG_0412.MOV", "in": 3.20, "out": 5.10, "zoom": "punch", "_nota": "gancho: la frase más fuerte primero"},
+    {"clip": "IMG_0398.MOV", "in": 0.00, "out": 1.40, "mudo": true, "_nota": "b-roll de la calle"},
+    {"clip": "IMG_0401.MOV", "in": 12.6, "out": 18.3, "zoom": "lento"},
+    {"clip": "IMG_0405.MOV", "in": 2.00, "out": 4.00, "velocidad": 1.5, "_nota": "caminata acelerada"},
+    {"clip": "foto_cafe.jpg", "duracion": 1.8},
+    {"clip": "IMG_0415.MOV", "in": 40.1, "out": 44.0, "encuadre": "izq", "_nota": "plano horizontal: me quedo con el lado izquierdo"}
+  ]
+}

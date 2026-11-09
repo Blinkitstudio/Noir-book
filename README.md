@@ -11,3 +11,6 @@ Libro de ciencia ficción sobre Nuar, memoria heredada y coexistencia entre rép
 Título de la historia: **Alias**. Protagonista: **Nuar**. Tres vidas y dos muertes; el cuerpo actual es el tercero.
 
 Idioma del manuscrito: español. Formato de trabajo: Markdown, legible y editable directamente en GitHub.
+
+## Contenido para redes
+Kit de edición de vlogs y reels, guía de estilo y aprendizajes en [contenido/](contenido/README.md).

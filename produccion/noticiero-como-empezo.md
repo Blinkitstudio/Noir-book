@@ -24,6 +24,35 @@ También pueden montarse como pieza independiente, "ALIAS — Archivo", de 60 a 
 - Décadas después, ya con réplicas, estalla la **guerra por los recursos de la Antártida** entre el **Cono Sur** y la **unión de Australia y Nueva Zelanda**. El primer cuerpo replicante muere en ella.
 - **Derivado, no confirmado:** si la introducción ocurre en 2237 y "han pasado 200 años", la guerra nuclear sería en **2037**. Pendiente de confirmación del autor.
 
+## Montaje de archivo (apertura estilo *Soy leyenda* / *The Last of Us*)
+No es animación: es **edición con material de archivo real** que escala década por década hasta el noticiero ficticio de 2037. La historia real (1945–1962) le da peso a la ficción. Desde los 2030 todo es inventado.
+
+| Bloque | Dur. | Material | Sonido |
+|---|---|---|---|
+| 1. "1946–1954" | ~10 s | Pruebas nucleares del Departamento de Energía de EE. UU. (Crossroads, Castle, Ranger/Buster): hongos, ondas expansivas, observadores con gafas | Proyector, crujido de película, narrador de época de fondo |
+| 2. "1951–1961" | ~8 s | Defensa civil: niños agachándose bajo pupitres (*Duck and Cover*), medidores de radiación (*Radiological Defense*) | Sirena de prueba, campana escolar |
+| 3. "1962" | ~6 s | Crisis de los misiles: discurso de Kennedy del 22/10/1962 (dominio público, Biblioteca JFK). **Lo descarga Raúl** (ver reglas) | Fragmento real del discurso, sin alterar |
+| 4. URSS | ~5 s | Material soviético **solo si la fuente confirma dominio público**. Si no, se omite | Radio en ruso de fondo |
+| 5. "2031 · 2034 · 2036" | ~8 s | Fragmentos ficticios: carteles de fecha sobre negro, interferencia, titulares inventados (rutas del Ártico, apagones, satélites) | Teletipo, voces de radio superpuestas, dron grave que sube |
+| 6. "2037" | ~30 s | **Noticiero A** de Señal Austral (abajo) | Cortinilla, silencio, corte de señal |
+
+Tratamiento: el archivo 4:3 va centrado dentro del 9:16 con textura de TV de tubo y fechas en Montserrat pequeña. El ritmo se acelera, los cortes se acortan y al final se corta el sonido de golpe.
+
+### Reglas para el archivo real
+- Solo material de **dominio público** o con licencia comprobada, con la fuente anotada.
+- **Las personas reales nunca dicen nada que no dijeron.** No se doblan, no se recortan para cambiar el sentido y no se usan para anunciar la guerra de 2037. El archivo real termina en 1962; lo que viene después es ficción, con fechas y titulares inventados.
+- El material con líderes reales reconocibles (Kennedy, dirigentes soviéticos) lo descarga Raúl desde la fuente oficial y lo pone en la carpeta del proyecto. Claude lo integra en el montaje.
+
+### Fuentes verificadas (archive.org, 2026-11-09)
+| Película | Año | Licencia | Enlace |
+|---|---|---|---|
+| Nuclear Test Film – Operation Castle (DOE) | 1954 | CC0 | https://archive.org/details/gov.doe.0800013 |
+| Nuclear Test Film – Project Crossroads (DOE) | 1946 | CC0 | https://archive.org/details/gov.doe.0800002 |
+| Nuclear Test Film – Operation Ranger / Buster-Jangle (DOE) | 1951 | CC0 | https://archive.org/details/gov.doe.0800010 |
+| Duck and Cover (Prelinger) | 1951 | Dominio público | https://archive.org/details/DuckandC1951 |
+| Radiological Defense (Prelinger) | 1961 | Dominio público | https://archive.org/details/Radiolog1961 |
+| Discurso de Kennedy, crisis de los misiles | 1962 | Dominio público (Biblioteca JFK) | https://www.jfklibrary.org/learn/about-jfk/historic-speeches/address-during-the-cuban-missile-crisis |
+
 ## Noticiero A: "Cómo empezó" (2037), ~45–60 s
 | # | Dur. | Imagen | Presentador / texto en pantalla |
 |---|---|---|---|

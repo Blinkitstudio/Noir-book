@@ -6,6 +6,7 @@ Libro de ciencia ficción sobre Nuar, memoria heredada y coexistencia entre rép
 - [Introducción](manuscrito/00-introduccion.md): borrador literario vigente, sujeto a revisión del autor.
 - [Biblia de continuidad](desarrollo/continuidad.md): decisiones confirmadas y cuestiones abiertas.
 - [Archivo de desarrollo](desarrollo/archivo.md): capítulos, versiones y materiales anteriores, con su estado.
+- [Capítulo 1: SUR](produccion/capitulo-01-sur.md): guion, lista de planos, presupuesto y prompts.
 - [Registro de cambios](CHANGELOG.md).
 
 Título de la historia: **Alias**. Protagonista: **Nuar**. Tres vidas y dos muertes; el cuerpo actual es el tercero.

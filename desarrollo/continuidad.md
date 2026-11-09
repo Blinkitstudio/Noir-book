@@ -11,7 +11,7 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - La introducción presenta primero la sociedad. La naturaleza heredada de la memoria de Nuar se revela hacia el final.
 
 ## Cronología: tres vidas, dos muertes
-1. Humano original: voló al sur un octubre, antes de la guerra nuclear, y sobrevivió. Murió más tarde; su conciencia fue preservada. Su nombre y los detalles de su muerte no están establecidos en el relato.
+1. Humano original: voló al sur un octubre, antes de la guerra nuclear, y sobrevivió precisamente por estar en el sur (las bombas cayeron lejos, en el norte). Murió más tarde, de viejo según el borrador del capítulo 1; su conciencia fue preservada. El país del sur no se nombra. Su nombre y los detalles de su muerte no están establecidos en el relato.
 2. Primer cuerpo replicante: heredó esa mente y murió en la guerra por los recursos de la Antártida.
 3. Cuerpo actual: Nuar. No ha muerto en esta vida. Conserva recuerdos fragmentarios de las dos anteriores y ha presenciado la transformación del mundo a través de ellas.
 

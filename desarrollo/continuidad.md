@@ -26,7 +26,7 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - Vehículos voladores, plataformas, pasarelas, transporte cotidiano y mantenimiento activo.
 
 ## Geopolítica de la guerra (decisiones del autor, 2026-11-09)
-- La guerra nuclear nace de la escalada entre Rusia, Estados Unidos y China. Ficción especulativa: sin líderes reales ni frases atribuidas a personas reales.
+- La guerra nuclear nace de la escalada entre Rusia, Estados Unidos y China **por el control de los centros de datos y los chips** (decisión del autor, 2026-11-09). Cuánto se revela en pantalla está pendiente. Eco temático: en 2237, réplicas y máquinas comparten precisamente esos centros de datos. Ficción especulativa: sin líderes reales ni frases atribuidas a personas reales.
 - Las bombas caen en el hemisferio norte. Quedan relativamente a salvo Sudáfrica, el Cono Sur, Australia y Nueva Zelanda.
 - La guerra por los recursos de la Antártida enfrenta al Cono Sur con la unión de Australia y Nueva Zelanda. Ocurre décadas después, ya con réplicas como soldados.
 - Se cuenta en pantalla con noticieros dentro de la ficción (`produccion/noticiero-como-empezo.md`).

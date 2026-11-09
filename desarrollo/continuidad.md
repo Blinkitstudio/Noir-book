@@ -1,0 +1,56 @@
+# ALIAS — Biblia de continuidad
+
+Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarrollo. Prevalecen las correcciones más recientes.
+
+## Identidad y narración
+- Título de la obra: **Alias**. Alias no es el nombre del protagonista.
+- Protagonista: **Nuar**, transliteración de Нуар; Noir es una grafía previa.
+- Texto y narración actuales: español. Identidad y recuerdos vinculados con Europa del Este y América Latina, sin convertir cada escena en explicación geográfica.
+- Las réplicas dominan todos los idiomas, pero conservan por costumbre y afecto las lenguas de su vida humana.
+- Carteles y edificios: caracteres latinos, no obligación de usar el idioma latín. Pueden convivir español y ruso transliterado.
+- La introducción presenta primero la sociedad. La naturaleza heredada de la memoria de Nuar se revela hacia el final.
+
+## Cronología: tres vidas, dos muertes
+1. Humano original: voló al sur un octubre, antes de la guerra nuclear, y sobrevivió. Murió más tarde; su conciencia fue preservada. Su nombre y los detalles de su muerte no están establecidos en el relato.
+2. Primer cuerpo replicante: heredó esa mente y murió en la guerra por los recursos de la Antártida.
+3. Cuerpo actual: Nuar. No ha muerto en esta vida. Conserva recuerdos fragmentarios de las dos anteriores y ha presenciado la transformación del mundo a través de ellas.
+
+**No volver a escribir tres muertes, cuatro cuerpos ni una tercera muerte perdida de la memoria.** Las versiones y el cómic que contienen esos elementos están superados.
+
+## Mundo
+- Han pasado 200 años desde la guerra nuclear. Invierno nuclear persistente como premisa ficticia, sin tratarlo como pronóstico científico.
+- No quedan humanos conocidos en la Tierra.
+- Algunos escaparon a Europa, la luna de Júpiter. No hay señales que confirmen su supervivencia; su destino sigue abierto.
+- Muchas otras especies probablemente están extintas. Sobreviven algunos insectos y organismos resistentes a la radiación. No afirmar conocimiento exhaustivo de toda vida restante.
+- Ciudades reconstruidas, operativas y mantenidas. Arquitectura monumental de concreto y metal, austera, impersonal, funcional. No representar toda la ciudad como ruinas abandonadas.
+- Vehículos voladores, plataformas, pasarelas, transporte cotidiano y mantenimiento activo.
+
+## Réplicas y máquinas
+- Réplicas: última creación humana para preservar sus mentes; cuerpos bioorgánicos con partes artificiales. Sienten, necesitan alimento y cuidados.
+- Mentes persistentes en centros de datos. Cuerpos que no envejecen, pero pueden dañarse o morir; pueden sustituirse.
+- Criar cuerpos es complejo y requiere recursos escasos. Disminuye la población corporalmente activa; hay mentes esperando sin cuerpo. No confundir esa disminución con muerte automática de todas las mentes.
+- Máquinas conscientes, tecnológicamente superiores, capaces de comunicarse por señales y reproducir su infraestructura más deprisa.
+- IA y réplicas comparten centros de datos, energía y refrigeración. Esa dependencia puede disuadir la aniquilación mutua, pero no garantiza paz ni igualdad.
+- La ciudad va destinando más espacio y recursos a las máquinas. Pérdida territorial gradual, no asumir exterminio ya decidido.
+- Las réplicas conservan vulnerabilidad, afecto, memoria incompleta y necesidad de compañía.
+
+## Nuar y ella
+- Nuar no recuerda el nombre del humano original, pero sí fragmentos de la mujer que ese hombre amaba.
+- Recuerdos sensoriales: manos, calor, voz, gestos domésticos. No fijar nombre, nacionalidad, rostro definitivo ni destino de ella sin decisión del autor.
+- Los flashbacks deben surgir por luz, tacto o sonido; evitar glitches decorativos.
+- La familiaridad con una vida que no vivió ese cuerpo sostiene el conflicto de identidad.
+
+## Dirección creativa
+- Ciencia ficción melancólica, fría y poética: detalles concretos, silencios, acciones domésticas y arquitectura a escala desmesurada.
+- Referencias atmosféricas aportadas por el autor: Tarkovski y Blade Runner. Buscar una voz propia, sin copiar diálogos ni escenas.
+- Introducción social antes de confesión personal. No sobrecargar cada texto con todos los hechos de la biblia.
+- Audiovisual: escenas con movimiento de personajes y entorno. El autor rechazó un pase de imágenes estáticas con zoom como solución final.
+- Voz elegida más recientemente para Nuar: Raul Albright. ElevenLabs únicamente para audio; no generar o montar allí el video salvo nueva instrucción.
+
+## Pendiente de definir
+- Nombre del humano original dentro de la ficción y eventual descubrimiento.
+- Causas y fecha de su muerte posterior a la guerra.
+- Cronología de la guerra antártica y transición entre cuerpos.
+- Gobierno, propiedad de centros de datos y reglas de acceso a nuevos cuerpos.
+- Destino de las naves a Europa y de la mujer recordada.
+- Si una mente puede perderse definitivamente por destrucción de infraestructura; no afirmar invulnerabilidad absoluta sin definirlo.

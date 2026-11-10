@@ -92,3 +92,13 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - No asumir aún que esa expareja es necesariamente la misma mujer de los recuerdos centrales; conexión pendiente de desarrollar con el autor.
 - El pasado militar está establecido en la segunda vida, durante la guerra antártica. La nueva mención «antes fui militar» no basta para atribuir también servicio militar al humano original.
 - La ocupación actual sigue abierta. Considerar la combinación de experiencia comercial, mirada fotográfica, sensibilidad emocional y pasado militar al proponerla.
+
+
+## Exoesqueleto de campo — referencia aprobada, 2026-11-10
+- Referencia vigente: `assets/conceptos/nuar-exoesqueleto-campo-2237.jpg`, versión con ambos brazos conectados al arnés dorsal. El autor pidió guardar esta versión. Sustituye las iteraciones visuales anteriores del exoesqueleto.
+- Es equipamiento de campo del cuerpo actual, tercera vida. El vestuario cotidiano aprobado se conserva por separado.
+- Uniforme militar térmico fino de inspiración antártica, chaleco tecnológico ligero, cargos y botas todoterreno. Exoesqueleto exterior continuo desde espalda a hombros, brazos, codos y antebrazos; soporte de cadera y piernas. Rodillas de compuesto de fibra de carbono con textura verde. No implica prótesis ni amputación de los miembros orgánicos actuales.
+- Lentillas digitales y pantalla de estado corporal, clima y radiación en el antebrazo. Los valores de pantalla son ilustrativos. Comunicaciones integradas: sin antena saliente ni auricular externo.
+- Sin arma en esta referencia: se diseñará por separado más adelante.
+- Referencia visual de ficción, sin validación biomecánica o de ingeniería. Para futuras imágenes usar las fotografías originales del autor como fuente de identidad facial; evitar acumular cambios de rostro entre generaciones.
+- La insignia del Cono Sur se conserva en el diseño. Su evolución política en 2237 y la estructura exacta del Ministerio siguen pendientes; el autor establece un contexto totalitario. «Jefe de sección de Operaciones de Inteligencia» es el puesto de trabajo propuesto tras descartar subdirector por rango excesivo.

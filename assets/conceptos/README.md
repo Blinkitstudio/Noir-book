@@ -74,3 +74,8 @@ Estado: REFERENCIA DE ESCENA.
 
 Original de sesión: `exec-a47aabe2-df20-4fdb-b9cf-fdd79745ef3b.png`.
 
+
+
+### Nuar — exoesqueleto de campo, 2237
+![Nuar con exoesqueleto de campo y brazos conectados](nuar-exoesqueleto-campo-2237.jpg)
+Referencia vigente guardada por indicación del autor el 2026-11-10. Conexión dorsal–hombro–brazo continua, rodillas de carbono verde, interfaz de salud y entorno; sin arma. Vestuario cotidiano conservado por separado.

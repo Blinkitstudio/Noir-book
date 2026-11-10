@@ -29,3 +29,7 @@
 - Confirmado el término remanentes en continuidad; propuestas de ocupación separadas del canon.
 
 - Antecedentes de Nuar: negocios, fotografía, sensibilidad y traumas de guerra en la vida original; expareja conocida en Kyiv cuyo paradero dejó de conocer durante la guerra. Destino y vínculo con la mujer central aún abiertos.
+
+## 2026-11-10 — Exoesqueleto de campo
+- Guardada la ficha vigente de Nuar con conexión continua de brazos al arnés dorsal.
+- Registrados uniforme de campo, carbono verde, lentillas, monitor de salud/entorno y ausencia de arma.

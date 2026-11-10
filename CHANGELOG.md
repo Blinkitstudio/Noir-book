@@ -1,6 +1,7 @@
 # Registro de cambios
 
 ## 2026-11-10
+- Making of de ALIAS (reel 86 s): origen real contado por Raúl (un modelo de IA idéntico a él → los remanentes), mundo actual, inspiraciones y fichas de cada máquina.
 - Documental «Me llaman Nuar» v1: narrado por Nuar con la voz de Raúl, artes conceptuales con paneo y 4 láminas animadas; versión horizontal (2:25) y reel (1:31).
 - Prólogo v15: 2,5 s de Kennedy dando el discurso del 22/10/1962 (To the Brink, National Archives) antes de San Cristóbal y los barcos.
 - Corrección de formato solicitada por el autor: creado manuscrito narrativo en prosa (introducción y dos capítulos, unas 1.700 palabras). Canva independiente de nueve páginas. Este es el documento para leer y continuar; el guion técnico queda como auxiliar.

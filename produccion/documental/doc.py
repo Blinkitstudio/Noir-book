@@ -71,11 +71,14 @@ def seg_video(path, start, d, out, fade_in, fade_out):
     sd = dur(path) - start
     speed = min(max(d / sd, 1.0), 1.7)  # si el clip es corto, se ralentiza
     w, h = map(int, subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', path], capture_output=True, text=True).stdout.split(','))
+    pre = ""
+    if MODE == 'h' and h > w:  # plano vertical en 16:9: recorte 8:9 para que no quede una tira angosta
+        ch = int(w * 1.125) // 2 * 2; pre = f"crop={w}:{ch}:0:{int((h-ch)*0.45)},"; h = ch
     fw, fh = fit(w, h)
     fades = (f",fade=t=in:st=0:d=0.4" if fade_in else "") + (f",fade=t=out:st={d-0.5:.2f}:d=0.5" if fade_out else "")
     fc = (f"[0:v]setpts={speed:.3f}*(PTS-STARTPTS),fps={FPS},split[a][b];"
-          f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:2,eq=brightness=-0.28:saturation=0.6[bg];"
-          f"[b]scale={fw}:{fh}[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,{GRADE},tpad=stop_mode=clone:stop_duration=4,trim=0:{d:.3f},setpts=PTS-STARTPTS{fades},format=yuv420p[v]")
+          f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:2,eq=brightness=-0.16:saturation=0.7[bg];"
+          f"[b]{pre}scale={fw}:{fh}[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,{GRADE},tpad=stop_mode=clone:stop_duration=4,trim=0:{d:.3f},setpts=PTS-STARTPTS{fades},format=yuv420p[v]")
     run(f'ffmpeg -v error -y -ss {start} -i "{path}" -filter_complex "{fc}" -map "[v]" -an -t {d:.3f} -r {FPS} -c:v libx264 -crf 18 -preset fast {out}')
 
 
@@ -90,7 +93,7 @@ def seg_image(key, d, out, fade_in, fade_out, k):
     x = f"{dx}*t/{d:.3f}" if k % 2 == 0 else f"{dx}*(1-t/{d:.3f})"   # paneo lento, alterna dirección
     y = f"{dy}*0.5"
     fades = (f",fade=t=in:st=0:d=0.4" if fade_in else "") + (f",fade=t=out:st={d-0.5:.2f}:d=0.5" if fade_out else "")
-    fc = (f"[1:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:2,eq=brightness=-0.3:saturation=0.6[bg];"
+    fc = (f"[1:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:2,eq=brightness=-0.18:saturation=0.7[bg];"
           f"[0:v]crop={fw}:{fh}:'{x}':'{y}'[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,{GRADE}{fades},format=yuv420p[v]")
     run(f'ffmpeg -v error -y -loop 1 -framerate {FPS} -t {d:.3f} -i {OUT}/tmp_{key}.png -loop 1 -framerate {FPS} -t {d:.3f} -i {OUT}/tmp_{key}_bg.png '
         f'-filter_complex "{fc}" -map "[v]" -t {d:.3f} -r {FPS} -c:v libx264 -crf 18 -preset fast {out}')

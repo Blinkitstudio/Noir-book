@@ -29,6 +29,7 @@ IMG = {
     'tres_all': ('exec-5639548b-a231-409e-a88e-adfef7c2b56d.jpg', (0, 30, 1500, 1000)),
     'soldado': ('exec-94e1e2c6-83d7-4845-b94d-260d9b434e92.jpg', (0, 40, 760, 1000)),
     'collage': (None, None),
+    'exo': ('nuar-exoesqueleto-campo-2237.jpg', (0, 80, 1230, 1560)),
 }
 
 
@@ -71,35 +72,37 @@ def seg_image(key, d, out, fi, fo, k):
     im.resize((zw, zh), Image.LANCZOS).save(f'{OUT}/tmp_{key}.png'); im.save(f'{OUT}/tmp_{key}_bg.png')
     dx, dy = zw - fw, zh - fh
     x = f"{dx}*t/{d:.3f}" if k % 2 == 0 else f"{dx}*(1-t/{d:.3f})"
-    y = f"{dy}*t/{d:.3f}" if key in ('env', 'nodo', 'soldado', 'collage') else f"{dy}*0.5"
+    y = f"{dy}*t/{d:.3f}" if key in ('env', 'nodo', 'soldado', 'collage', 'exo') else f"{dy}*0.5"
     fc = (f"[1:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:2,eq=brightness=-0.2:saturation=0.7[bg];"
           f"[0:v]crop={fw}:{fh}:'{x}':'{y}'[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,{GRADE}{fades(d, fi, fo)},format=yuv420p[v]")
     run(f'ffmpeg -v error -y -loop 1 -framerate {FPS} -t {d:.3f} -i {OUT}/tmp_{key}.png -loop 1 -framerate {FPS} -t {d:.3f} -i {OUT}/tmp_{key}_bg.png '
         f'-filter_complex "{fc}" -map "[v]" -t {d:.3f} -r {FPS} -c:v libx264 -crf 18 -preset fast {out}')
 
 
+MOD = '/home/user/alias-archivo/moderno/'
 VO = {
-    1: ['Este es Nuar.', 'Tiene mi cara y mi voz, y vive en el año 2237.'],
-    2: ['La idea parte de algo simple:', '¿qué pasa si estalla una guerra nuclear y yo estoy en el sur?', 'Para la historia me inspiré en Fallout, Blade Runner, Ghost in the Shell, Matrix, Stalker y Edge of Tomorrow.', 'Y para la forma de contarla, en Terminator 3, Soy leyenda y The Last of Us.'],
-    3: ['En ALIAS, las bombas caen en el norte y el sur sobrevive.', 'Doscientos años después, los humanos ya no están.', 'Quedan las réplicas, mentes copiadas en cuerpos cultivados,', 'y las máquinas, que tienen conciencia propia.'],
-    4: ['Nuar va por su tercera vida.', 'En la segunda fue soldado del Cono Sur, en la guerra de la Antártida.'],
-    5: ['Cada máquina tiene su ficha, por épocas.', 'La Envoltura: cuerpos sin género que caben en espacios humanos.', 'El Nodo: cada versión se parece menos a un rostro.',
-        'El Contorno: una plataforma de carga consciente, con cuatro patas y pinzas.', 'El TS-9 Austral, el transporte del Cono Sur.', 'Y el C-7 Aguja, un caza con alas que se pliegan en tierra.'],
-    6: ['Todo lo estoy haciendo con inteligencia artificial:', 'las imágenes, la animación y hasta esta voz.'],
+    1: ['Este es Nuar...', 'Tiene mi cara. Mi voz.', 'Y vive en el año 2237.'],
+    2: ['Cuando veo las noticias...', 'Europa pidiendo a la gente que guarde comida para tres días.', 'Apagones.', 'Protestas.',
+        'Y una carrera entre Estados Unidos, China y Rusia por los chips y los centros de datos.', 'Es difícil no imaginar cómo termina.'],
+    3: ['Y yo vivo en el sur.', 'Así que me hice una pregunta:', 'si todo eso sale mal... ¿quién queda?', '¿Qué queda de nosotros?'],
+    4: ['Pero ALIAS no va tanto de la guerra.', 'Va de lo que viene después: la memoria.', 'Nuar va por su tercera vida...', 'y recuerda a una mujer,', 'pero no el nombre del hombre que la amaba.'],
+    5: ['Para la historia tomé mucho de Fallout, Blade Runner, Ghost in the Shell, Matrix, Stalker, Edge of Tomorrow.', 'Y para contarla... de Terminator 3, Soy leyenda, The Last of Us.'],
+    6: ['Las máquinas las fui diseñando por épocas.', 'La Envoltura, cuerpos sin género.', 'El Nodo, que cada vez se parece menos a nosotros.', 'El Contorno, que carga lo que nadie más carga.', 'Y el Austral y el Aguja, de la guerra en la Antártida.'],
+    7: ['Todo lo hago con inteligencia artificial.', 'Y eso también es parte de la pregunta...', 'porque hasta esta voz es una copia de la mía.'],
 }
-# (plano, palabra donde empieza, etiqueta (rojo, blanco) o None)
+# (plano, palabra donde empieza, etiqueta (rojo, blanco) o None). Material real sin rótulos de lugar ni fecha.
 SHOTS = {
     1: [(('v', 'anim/a_rostro.mp4', 0), None, None)],
-    2: [(('v', 'archivo/hongo.mp4', 0), None, None), (('v', SH + 's09.mp4', 0), 'para', ('LA HISTORIA', 'FALLOUT · BLADE RUNNER · GHOST IN THE SHELL\\NMATRIX · STALKER · EDGE OF TOMORROW')),
-        (('v', SH + 's13.mp4', 0), 'forma', ('EL CINE', 'TERMINATOR 3 · SOY LEYENDA · THE LAST OF US'))],
-    3: [(('v', 'archivo/hongo.mp4', 3.5), None, ('EL MUNDO', 'LAS BOMBAS CAEN EN EL NORTE')), (('v', SH + 's12.mp4', 0), 'doscientos|200', ('2237', 'LOS HUMANOS YA NO ESTÁN')),
-        (('v', SH + 's05.mp4', 0), 'quedan', ('RÉPLICAS', 'MENTES COPIADAS EN CUERPOS CULTIVADOS')), (('v', SH + 's08.mp4', 0), 'maquinas', ('MÁQUINAS', 'CONSCIENCIA PROPIA'))],
-    4: [(('i', 'tres_all'), None, ('NUAR', 'TRES VIDAS · TRES CUERPOS')), (('i', 'soldado'), 'en', ('2ª VIDA', 'SOLDADO DEL CONO SUR'))],
-    5: [(('i', 'env_full'), None, ('FICHAS', 'CADA MÁQUINA, POR ÉPOCAS')), (('i', 'nodo_full'), 'por', None),
-        (('i', 'env'), 'envoltura|emboltura', ('ENVOLTURA', 'CUERPOS SIN GÉNERO · 2037 → 2237')), (('i', 'nodo'), 'nodo', ('NODO', 'CADA VERSIÓN, MENOS HUMANO')),
-        (('v', 'anim/a_contorno.mp4', 0), 'contorno', ('CONTORNO', 'CARGA TODOTERRENO · 4 PATAS Y PINZAS')), (('v', 'anim/a_ts9.mp4', 0), 'ts', ('TS-9 AUSTRAL', 'TRANSPORTE DEL CONO SUR')),
-        (('i', 'c7'), 'c7|c', ('C-7 AGUJA', 'CAZA · ALAS PLEGABLES EN TIERRA'))],
-    6: [(('i', 'collage'), None, ('MAKING OF', 'HECHO CON INTELIGENCIA ARTIFICIAL'))],
+    2: [(('v', MOD + 'costco.src', 20.0), 'europa', None), (('v', MOD + 'iberia.src', 0.8), 'apagones', None), (('v', MOD + 'gj.src', 48.5), 'protestas', None),
+        (('v', MOD + 'chips.src', 400.0), 'carrera', None), (('v', MOD + 'dc_tour.src', 516.0), 'chips', None), (('v', 'archivo/hongo.mp4', 0), 'es|difícil|dificil', None)],
+    3: [(('v', SH + 's13.mp4', 0), None, None), (('v', 'archivo/hongo.mp4', 3.5), 'si', None), (('v', SH + 's12.mp4', 0), 'quien', None)],
+    4: [(('i', 'tres_all'), None, ('NUAR', 'TRES VIDAS · TRES CUERPOS')), (('v', SH + 's07.mp4', 0), 'recuerda', None)],
+    5: [(('i', 'exo'), None, ('LA HISTORIA', 'FALLOUT · BLADE RUNNER · GHOST IN THE SHELL\\NMATRIX · STALKER · EDGE OF TOMORROW')),
+        (('i', 'soldado'), 'y', ('EL CINE', 'TERMINATOR 3 · SOY LEYENDA · THE LAST OF US'))],
+    6: [(('i', 'env_full'), None, ('FICHAS', 'CADA MÁQUINA, POR ÉPOCAS')), (('i', 'env'), 'la', ('ENVOLTURA', 'CUERPOS SIN GÉNERO')),
+        (('i', 'nodo'), 'el', ('NODO', 'CADA VEZ MENOS HUMANO')), (('v', 'anim/a_contorno.mp4', 0), 'el', ('CONTORNO', 'CARGA TODOTERRENO')),
+        (('v', 'anim/a_ts9.mp4', 0), 'y', ('TS-9 AUSTRAL', 'TRANSPORTE DEL CONO SUR')), (('i', 'c7'), 'aguja', ('C-7 AGUJA', 'CAZA DE LA GUERRA ANTÁRTICA'))],
+    7: [(('i', 'collage'), None, ('MAKING OF', 'HECHO CON INTELIGENCIA ARTIFICIAL')), (('v', 'anim/a_rostro.mp4', 1.0), 'porque', None)],
 }
 LEAD, TAIL = 0.35, 0.45
 
@@ -114,7 +117,7 @@ def words(path):
 
 
 segs, aud, ev, t, n = [], [], [], 0.0, 0
-for b in range(1, 7):
+for b in range(1, 8):
     vo = f'vo/m{b:02d}_n.wav'; vd = dur(vo); blen = vd + LEAD + TAIL
     aud.append((vo, t + LEAD)); wt = words(vo)
     i = 0
@@ -125,8 +128,10 @@ for b in range(1, 7):
     starts, wi = [], 0
     for k, (spec, anchor, lab) in enumerate(SHOTS[b]):
         if anchor is None: starts.append(0.0 if k == 0 else starts[-1] + 0.8); continue
-        while wi < len(wt) and not any(wt[wi][2].startswith(a) for a in anchor.split('|')): wi += 1
-        starts.append(LEAD + wt[wi][0] - 0.1 if wi < len(wt) else starts[-1] + 1.0); wi += 1
+        al = [norm(a) for a in anchor.split('|')]
+        while wi < len(wt) and wt[wi][2] not in al: wi += 1
+        st = LEAD + wt[wi][0] - 0.1 if wi < len(wt) else starts[-1] + 1.0
+        starts.append(0.0 if k == 0 else st); wi += 1
     starts.append(blen)
     for k, (spec, anchor, lab) in enumerate(SHOTS[b]):
         d = round(starts[k + 1] - starts[k], 2); out = f'{OUT}/seg/{n:02d}.mp4'
@@ -138,7 +143,7 @@ for b in range(1, 7):
             a0, a1 = t + starts[k], t + starts[k] + d
             ev.append(f"Dialogue: 7,{ts(a0+.05)},{ts(a1)},ChyR,,0,0,0,,{{\\an1\\pos(60,330)\\fad(80,60)}}{lab[0]}")
             ev.append(f"Dialogue: 7,{ts(a0+.15)},{ts(a1)},ChyW,,0,0,0,,{{\\an1\\pos(60,410)\\fad(80,60)}}{lab[1]}")
-    if b in (2, 3): aud.append(('sfx/rumble.wav', t + (0.1 if b == 2 else 0.0)))
+    if b == 3: aud.append(('sfx/rumble.wav', t + 1.5))
     t += blen
 cta = 6.3
 out = f'{OUT}/seg/{n:02d}.mp4'

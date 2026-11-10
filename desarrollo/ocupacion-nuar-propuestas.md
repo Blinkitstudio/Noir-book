@@ -18,3 +18,6 @@ Transporta nutrientes, cultivos y componentes de mantenimiento entre laboratorio
 
 ## Criterio
 Elegir una ocupación cotidiana con encuentros humanos, necesidad económica concreta y acceso a exteriores. Mantener la prohibición de entrar en centros de datos. No convertir estas propuestas en escenas aprobadas ni asignarle un trabajo sin elección del autor.
+
+## Nueva posibilidad tras ampliar los antecedentes
+Propuesta no aprobada: intermediario y explorador de campo. Localiza suministros y equipos, comprueba su estado, documenta lugares mediante fotografía y negocia su recuperación o intercambio. Conecta la experiencia comercial del original, su mirada fotográfica y la capacidad operativa del soldado. No implica acceso a centros de datos ni convertirlo en cazador de personas. Queda por definir el mercado, sus clientes y los límites de su actividad.

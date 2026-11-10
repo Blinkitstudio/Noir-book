@@ -84,3 +84,11 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - Botas ligeras todoterreno de tecnología de conflicto, con refuerzos de compuesto de fibra de carbono, tobillo flexible y suela de agarre. No denominar aleación a la fibra de carbono; no establecer todavía que las botas físicas sobrevivieron de la segunda vida.
 - Mantener fidelidad a las fotografías reales del autor, sin estilizar ni endurecer sus facciones. El cuerpo actual tiene apariencia orgánica; no trasladarle las modificaciones visibles del híbrido secundario.
 - La ocupación de Nuar sigue pendiente. Las opciones de `desarrollo/ocupacion-nuar-propuestas.md` son propuestas, no canon.
+
+
+## Antecedentes personales — decisiones del autor, 2026-11-10
+- En la vida humana original, el personaje hacía diversos negocios, era fotógrafo y muy emocional. Ya tenía traumas vinculados con la guerra; episodios, fechas y circunstancias aún no definidos. Estos son antecedentes del personaje, no una ficha clínica del autor.
+- Conoció a una expareja en Kyiv. Durante la guerra dejó de saber de ella. No confirmar su muerte ni supervivencia, ni fijar todavía a qué conflicto se refiere ese corte de contacto.
+- No asumir aún que esa expareja es necesariamente la misma mujer de los recuerdos centrales; conexión pendiente de desarrollar con el autor.
+- El pasado militar está establecido en la segunda vida, durante la guerra antártica. La nueva mención «antes fui militar» no basta para atribuir también servicio militar al humano original.
+- La ocupación actual sigue abierta. Considerar la combinación de experiencia comercial, mirada fotográfica, sensibilidad emocional y pasado militar al proponerla.

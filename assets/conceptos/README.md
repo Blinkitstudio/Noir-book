@@ -79,3 +79,11 @@ Original de sesión: `exec-a47aabe2-df20-4fdb-b9cf-fdd79745ef3b.png`.
 ### Nuar — exoesqueleto de campo, 2237
 ![Nuar con exoesqueleto de campo y brazos conectados](nuar-exoesqueleto-campo-2237.jpg)
 Referencia vigente guardada por indicación del autor el 2026-11-10. Conexión dorsal–hombro–brazo continua, rodillas de carbono verde, interfaz de salud y entorno; sin arma. Vestuario cotidiano conservado por separado.
+
+
+### Nuar — uniforme de campo sin exoesqueleto, 2237
+**IMPORTANTE: el arma visible y su correa no forman parte del diseño aprobado. Omitirlas en futuras representaciones; el arma se diseñará por separado.**
+
+![Uniforme de campo sin exoesqueleto; arma mostrada excluida del canon](nuar-uniforme-campo-sin-exoesqueleto-2237.jpg)
+
+Ficha seleccionada expresamente por el autor el 2026-11-10. Se conserva la imagen de referencia tal como fue suministrada, con la exclusión anterior documentada. Esta variante convive con el exoesqueleto de campo y con el vestuario cotidiano; no los reemplaza. Incluye chaleco táctico de esta ficha, uniforme térmico fino, cargos, botas de carbono, lentillas digitales y monitor de estado y entorno. Para identidad facial prevalecen las fotografías reales del autor sobre el retrato generado.

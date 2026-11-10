@@ -33,3 +33,7 @@
 ## 2026-11-10 — Exoesqueleto de campo
 - Guardada la ficha vigente de Nuar con conexión continua de brazos al arnés dorsal.
 - Registrados uniforme de campo, carbono verde, lentillas, monitor de salud/entorno y ausencia de arma.
+
+## 2026-11-10 — Variante de campo sin exoesqueleto
+- Guardada la ficha seleccionada por el autor, conservando las otras variantes de vestuario.
+- Exclusión expresa del arma visible y su correa en README y continuidad; el arma queda pendiente de diseño separado.

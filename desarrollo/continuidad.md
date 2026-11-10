@@ -102,3 +102,11 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - Sin arma en esta referencia: se diseñará por separado más adelante.
 - Referencia visual de ficción, sin validación biomecánica o de ingeniería. Para futuras imágenes usar las fotografías originales del autor como fuente de identidad facial; evitar acumular cambios de rostro entre generaciones.
 - La insignia del Cono Sur se conserva en el diseño. Su evolución política en 2237 y la estructura exacta del Ministerio siguen pendientes; el autor establece un contexto totalitario. «Jefe de sección de Operaciones de Inteligencia» es el puesto de trabajo propuesto tras descartar subdirector por rango excesivo.
+
+
+## Uniforme de campo sin exoesqueleto — selección del autor, 2026-11-10
+- Referencia aprobada: `assets/conceptos/nuar-uniforme-campo-sin-exoesqueleto-2237.jpg`. El autor eligió expresamente esta ficha anterior como variante sin exoesqueleto.
+- **El arma visible NO va: está excluida del diseño aprobado, junto con su correa.** Se conserva la ficha original con esta salvedad explícita; no interpretar su presencia visual como aprobación ni utilizarla como referencia del arma futura.
+- Mantener el chaleco táctico, ropa térmica fina, cargos, botas de carbono, lentillas y monitor de salud/clima de esta variante. No imponerle automáticamente el chaleco o los soportes de otras iteraciones.
+- Se conservan tres referencias diferenciadas: vestuario cotidiano, uniforme de campo sin exoesqueleto y uniforme con exoesqueleto conectado.
+- Las fotografías del autor siguen siendo la referencia facial principal. Valores de pantallas ilustrativos.

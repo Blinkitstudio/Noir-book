@@ -29,6 +29,7 @@ IMG = {
     'tres_all': ('exec-5639548b-a231-409e-a88e-adfef7c2b56d.jpg', (0, 30, 1500, 1000)),
     'soldado': ('exec-94e1e2c6-83d7-4845-b94d-260d9b434e92.jpg', (0, 40, 760, 1000)),
     'collage': (None, None),
+    'nuar3': ('exec-3909b2a1-a84a-48c0-9081-4166ca7eac29.jpg', (0, 40, 820, 1000)),
     'exo': ('nuar-exoesqueleto-campo-2237.jpg', (0, 80, 1230, 1560)),
 }
 
@@ -84,7 +85,7 @@ VO = {
     1: ['Este es Nuar...', 'Tiene mi cara. Mi voz.', 'Y vive en el año 2237.'],
     2: ['Cuando veo las noticias...', 'Europa pidiendo a la gente que guarde comida para tres días.', 'Apagones.', 'Protestas.',
         'Y una carrera entre Estados Unidos, China y Rusia por los chips y los centros de datos.', 'Es difícil no imaginar cómo termina.'],
-    3: ['Y yo vivo en el sur.', 'Así que me hice una pregunta:', 'si todo eso sale mal... ¿quién queda?', '¿Qué queda de nosotros?'],
+    3: ['Yo vivo en Argentina, en el Cono Sur.', 'Y todo empezó probando modelos de inteligencia artificial...', 'creé uno idéntico a mí.', 'Eso me hizo pensar en los remanentes.', 'En lo que queda de nosotros.'],
     4: ['Pero ALIAS no va tanto de la guerra.', 'Va de lo que viene después: la memoria.', 'Nuar va por su tercera vida...', 'y recuerda a una mujer,', 'pero no el nombre del hombre que la amaba.'],
     5: ['Para la historia tomé mucho de Fallout, Blade Runner, Ghost in the Shell, Matrix, Stalker, Edge of Tomorrow.', 'Y para contarla... de Terminator 3, Soy leyenda, The Last of Us.'],
     6: ['Las máquinas las fui diseñando por épocas.', 'La Envoltura, cuerpos sin género.', 'El Nodo, que cada vez se parece menos a nosotros.', 'El Contorno, que carga lo que nadie más carga.', 'Y el Austral y el Aguja, de la guerra en la Antártida.'],
@@ -95,14 +96,15 @@ SHOTS = {
     1: [(('v', 'anim/a_rostro.mp4', 0), None, None)],
     2: [(('v', MOD + 'costco.src', 20.0), 'europa', None), (('v', MOD + 'iberia.src', 0.8), 'apagones', None), (('v', MOD + 'gj.src', 48.5), 'protestas', None),
         (('v', MOD + 'chips.src', 400.0), 'carrera', None), (('v', MOD + 'dc_tour.src', 516.0), 'chips', None), (('v', 'archivo/hongo.mp4', 0), 'es|difícil|dificil', None)],
-    3: [(('v', SH + 's13.mp4', 0), None, None), (('v', 'archivo/hongo.mp4', 3.5), 'si', None), (('v', SH + 's12.mp4', 0), 'quien', None)],
-    4: [(('i', 'tres_all'), None, ('NUAR', 'TRES VIDAS · TRES CUERPOS')), (('v', SH + 's07.mp4', 0), 'recuerda', None)],
+    3: [(('v', SH + 's13.mp4', 0), None, None), (('i', 'collage'), 'todo', None), (('v', 'anim/a_rostro.mp4', 0.5), 'cree', ('EL ORIGEN', 'UN MODELO DE IA IDÉNTICO A MÍ')),
+        (('v', SH + 's12.mp4', 0), 'remanentes', None)],
+    4: [(('i', 'nuar3'), None, ('NUAR', 'TRES VIDAS · TRES CUERPOS')), (('v', SH + 's07.mp4', 0), 'recuerda', None)],
     5: [(('i', 'exo'), None, ('LA HISTORIA', 'FALLOUT · BLADE RUNNER · GHOST IN THE SHELL\\NMATRIX · STALKER · EDGE OF TOMORROW')),
         (('i', 'soldado'), 'y', ('EL CINE', 'TERMINATOR 3 · SOY LEYENDA · THE LAST OF US'))],
     6: [(('i', 'env_full'), None, ('FICHAS', 'CADA MÁQUINA, POR ÉPOCAS')), (('i', 'env'), 'la', ('ENVOLTURA', 'CUERPOS SIN GÉNERO')),
         (('i', 'nodo'), 'el', ('NODO', 'CADA VEZ MENOS HUMANO')), (('v', 'anim/a_contorno.mp4', 0), 'el', ('CONTORNO', 'CARGA TODOTERRENO')),
         (('v', 'anim/a_ts9.mp4', 0), 'y', ('TS-9 AUSTRAL', 'TRANSPORTE DEL CONO SUR')), (('i', 'c7'), 'aguja', ('C-7 AGUJA', 'CAZA DE LA GUERRA ANTÁRTICA'))],
-    7: [(('i', 'collage'), None, ('MAKING OF', 'HECHO CON INTELIGENCIA ARTIFICIAL')), (('v', 'anim/a_rostro.mp4', 1.0), 'porque', None)],
+    7: [(('i', 'tres_all'), None, ('MAKING OF', 'HECHO CON INTELIGENCIA ARTIFICIAL')), (('v', 'anim/a_rostro.mp4', 1.0), 'porque', None)],
 }
 LEAD, TAIL = 0.35, 0.45
 
@@ -143,7 +145,7 @@ for b in range(1, 8):
             a0, a1 = t + starts[k], t + starts[k] + d
             ev.append(f"Dialogue: 7,{ts(a0+.05)},{ts(a1)},ChyR,,0,0,0,,{{\\an1\\pos(60,330)\\fad(80,60)}}{lab[0]}")
             ev.append(f"Dialogue: 7,{ts(a0+.15)},{ts(a1)},ChyW,,0,0,0,,{{\\an1\\pos(60,410)\\fad(80,60)}}{lab[1]}")
-    if b == 3: aud.append(('sfx/rumble.wav', t + 1.5))
+    if b == 2: aud.append(('sfx/rumble.wav', t + blen - 4.0))
     t += blen
 cta = 6.3
 out = f'{OUT}/seg/{n:02d}.mp4'

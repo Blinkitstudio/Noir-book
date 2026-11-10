@@ -170,7 +170,7 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Montserrat ExtraBold,52,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,2,2,2,90,90,330,1
+Style: Sub,Montserrat ExtraBold,50,&H00FFFFFF,&H00FFFFFF,&H70000000,&H00000000,0,0,0,0,100,100,0,0,3,10,0,2,90,90,300,1
 Style: ChyR,Montserrat ExtraBold,44,&H00FFFFFF,&H00FFFFFF,&H002C19D7,&H00000000,0,0,0,0,100,100,3,0,3,12,0,1,0,0,0,1
 Style: ChyW,Montserrat ExtraBold,30,&H00101010,&H00FFFFFF,&H00F0F0F0,&H00000000,0,0,0,0,100,100,1,0,3,12,0,1,0,0,0,1
 Style: Nota,Montserrat ExtraBold,32,&H00B4B4B4,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,12,0,1,0,0,8,60,60,0,1

@@ -2,7 +2,14 @@
 
 Narración en primera persona de Nuar, con la voz clonada de Raúl. Mundo + misterio: se presentan la Tierra de 2237, las réplicas, las máquinas y la guerra antártica; se dice que Nuar va por su tercera vida, pero **no** se cuenta cómo terminaron las otras dos. Texto basado en `manuscrito/alias-manuscrito-lectura.md`.
 
-Formatos: horizontal 16:9 (~3:30, YouTube) y corte vertical 9:16 (~80 s, Instagram).
+Formatos: horizontal 16:9 (2:25, YouTube) y corte vertical 9:16 (1:31, Instagram).
+
+## Estado v1 (2026-11-10)
+- Horizontal: media `c439aef3-61e0-47bc-b689-c242094d025b`, 145 s, 1920x1080.
+- Vertical (reel, bloques 1, 2, 4, 5, 7, 8, 10 y cierre): media `85c3b04c-8d7b-49bc-9644-a99b25c3e3c2`, 91 s, 1080x1920.
+- Costo: 20 créditos de Higgsfield (4 animaciones Seedance 2.0 Mini de 5 s) + unos 2.150 créditos de ElevenLabs (10 bloques de voz, flujo `ygGiPiAkqOvhylosVa3D`).
+- Script: `documental/doc.py h|v`. Carpeta de trabajo en el sandbox: `vo/` (b01–b10 normalizados a -20 LUFS, b11 = cta), `anim/`, `arte/` (láminas del repo), `archivo/hongo.mp4` (Crossroads 679,5 s), `sfx/`.
+- Pendiente de mejora: recorte de la hoja de Envoltura (corta el texto «2037»), volumen final -16 LUFS (YouTube normaliza; para Instagram se puede subir a -14).
 
 ## Guion
 

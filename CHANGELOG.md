@@ -1,6 +1,7 @@
 # Registro de cambios
 
 ## 2026-11-10
+- Documental «Me llaman Nuar» v1: narrado por Nuar con la voz de Raúl, artes conceptuales con paneo y 4 láminas animadas; versión horizontal (2:25) y reel (1:31).
 - Prólogo v15: 2,5 s de Kennedy dando el discurso del 22/10/1962 (To the Brink, National Archives) antes de San Cristóbal y los barcos.
 - Corrección de formato solicitada por el autor: creado manuscrito narrativo en prosa (introducción y dos capítulos, unas 1.700 palabras). Canva independiente de nueve páginas. Este es el documento para leer y continuar; el guion técnico queda como auxiliar.
 - Creado guion cinematográfico v0.1: portada y ocho páginas, 24 escenas, Fountain editable y maquetación A4 en Canva. Nueva adaptación en borrador; se preservan SUR y el dossier visual.

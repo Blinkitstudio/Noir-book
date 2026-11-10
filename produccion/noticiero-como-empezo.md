@@ -38,7 +38,14 @@ No es animación: es **edición con material de archivo real** que escala décad
 
 Tratamiento: el archivo 4:3 va centrado dentro del 9:16 con textura de TV de tubo y fechas en Montserrat pequeña. El ritmo se acelera, los cortes se acortan y al final se corta el sonido de golpe.
 
-### Estado: corte v7 (2026-11-09)
+### Estado: prólogo v10 (2026-11-09)
+- **ALIAS · PRÓLOGO**, 86.6 s (media `fb9b70f7-a893-446e-9e75-d3f49f457422`). Es la pieza previa a la intro "La Tierra · 2237".
+- Bloque moderno como noticiero de Señal Austral (EN VIVO + zócalos): 2025 · 72 horas (bandera de la UE) → 2025 · apagón ibérico (satélite NOAA, Lisboa) → PARÍS · protestas (chalecos amarillos 2019, sin fecha en pantalla) → 2031 · carrera por centros de datos y chips → 2036 · caen satélites → OCTUBRE · misiles.
+- Narración del bloque: "Pasaron décadas. Y las señales volvieron. / En 2025, Europa pidió a sus ciudadanos guardar provisiones para setenta y dos horas. / Un apagón dejó a dos países a oscuras en segundos. / Las calles se llenaron de protestas. / Y empezó otra carrera: por los centros de datos y los chips. / Rusia, Estados Unidos, China, cada vez más cerca. Hasta que un octubre, todo pasó muy rápido."
+- Puente con la intro: corte de señal (barras y pitido) → **ALIAS / PRÓLOGO** (misma tipografía que la intro) → "200 AÑOS DESPUÉS · LA TIERRA · 2237" sobre el plano del transporte aéreo de la intro → cierre SÍGUEME / GUARDA EL VIDEO sobre la calle nevada de 2237. Etiqueta "ALIAS · PRÓLOGO" en los primeros segundos.
+- Créditos extra: Envagyokabela (bandera UE, CC BY 4.0), Charbax (placas de servidor, CC BY 3.0), Gilets Jaune Live (protestas, CC BY 3.0).
+
+### Corte v7 (2026-11-09)
 - v7: 66.1 s (media `3f57d926-5b69-4403-a180-3af8439bb940`). Bloque del futuro con material real moderno y el mismo tratamiento visual. 2025 se presenta como fragmento de Señal Austral (EN VIVO, zócalo "ÚLTIMA HORA · BRUSELAS · 26/03/2025 — LA COMISIÓN EUROPEA PIDE PROVISIONES PARA 72 HORAS") sobre el kit de emergencia del CDC. Fechas sincronizadas con la voz (OCTUBRE cae con "un octubre"). Audio: sin teletipo sintético, con de-clic y reducción de ruido en el archivo, de-esser en la voz y -15.5 LUFS.
 
 ### Corte v3

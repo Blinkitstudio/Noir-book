@@ -7,7 +7,7 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - Protagonista: **Nuar**, transliteración de Нуар; Noir es una grafía previa.
 - Texto y narración actuales: español. Identidad y recuerdos vinculados con Europa del Este y América Latina, sin convertir cada escena en explicación geográfica.
 - Las réplicas dominan todos los idiomas, pero conservan por costumbre y afecto las lenguas de su vida humana.
-- Carteles y edificios: caracteres latinos, no obligación de usar el idioma latín. Pueden convivir español y ruso transliterado.
+- Actualización de esta conversación: letreros de tiendas y edificios de la ciudad de 2237 en ruso, con alfabeto cirílico. La narración y las anotaciones editoriales siguen en español. Esto reemplaza la indicación anterior de transliteración latina.
 - La introducción presenta primero la sociedad. La naturaleza heredada de la memoria de Nuar se revela hacia el final.
 
 ## Cronología: tres vidas, dos muertes
@@ -61,3 +61,17 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - Gobierno, propiedad de centros de datos y reglas de acceso a nuevos cuerpos.
 - Destino de las naves a Europa y de la mujer recordada.
 - Si una mente puede perderse definitivamente por destrucción de infraestructura; no afirmar invulnerabilidad absoluta sin definirlo.
+
+
+## Consolidación visual y edad — 2026-11-10
+- El original tiene **30 años en 2026**; nació en 1996. En el año de trabajo 2037 cumple **41 años**. Las imágenes actuales usan su rostro a los 30: envejecer esa primera encarnación cuando se represente 2037.
+- 2037 sigue registrado como año derivado, pendiente de confirmación explícita. El viaje al sur ocurrió un octubre anterior al desastre; no fijar su año por inferencia.
+- Propuestas aún no aprobadas: muerte del original hacia 2080 (unos 84 años); guerra antártica 2186–2191; transferencia al cuerpo actual en 2191 (46 años antes de 2237). La guerra tardía requiere resolver la formulación anterior «décadas después».
+- El soldado lleva uniforme militar clásico, chaleco táctico y aislamiento térmico fino. Modificaciones: brazo sintético e interfaz neural. Su cuerpo actual no hereda automáticamente aquellas modificaciones.
+- Cono Sur figura como país ficticio durante la guerra antártica. Bandera propuesta: cielo azul oscuro, franja celeste, constelación y sol cobrizo. Fronteras y fecha de formación pendientes.
+- Contorno: carga todoterreno, cuatro apoyos, pinzas industriales retráctiles; eliminar manos humanoides de referencias antiguas.
+- Envoltura y Nodo: familias de máquinas conscientes sin género; variantes visuales 2037 / guerra antártica / 2237.
+- Transporte TS-9 Austral y caza C-7 Aguja son diseños visuales propuestos. La referencia más reciente del C-7 tiene cuerpo estilizado, alas finas curvadas hacia arriba y plegado en tierra. No afirmar validación aerodinámica o ingeniería funcional.
+- Nuar no accede a centros de datos. En sus escenas mostrar fachadas, refrigeración, accesos y perímetros desde fuera.
+- Nuevo documento: `manuscrito/guion-visual-consolidado.md`. Contiene **alternativas literarias nuevas**, no sustituye automáticamente `00-introduccion.md` ni `produccion/capitulo-01-sur.md`.
+- El borrador SUR aún contiene elementos por armonizar: sala de servidores interior, uniformes sin insignias y abrigos voluminosos. Conservar el original y corregirlos al aprobar el montaje definitivo.

@@ -16,3 +16,10 @@ Idioma del manuscrito: español. Formato de trabajo: Markdown, legible y editabl
 
 ## Contenido para redes
 Kit de edición de vlogs y reels, guía de estilo y aprendizajes en [contenido/](contenido/README.md).
+
+
+## Guion visual y conceptos — actualización 2026-11-10
+- [Compilación de guion y universo visual](manuscrito/guion-visual-consolidado.md): continuidad, cronología, alternativas literarias y escenas. Los nuevos textos están en borrador.
+- [Índice de imágenes conceptuales](assets/conceptos/README.md): personajes, máquinas, transporte, caza y embarque; estados y limitaciones.
+- [Documento editable en Canva](https://www.canva.com/d/AaLr55X3H6BhZ_9): 23 páginas con imágenes integradas.
+- [Estado de la edición y decisiones pendientes](desarrollo/estado-guion-visual.md).

@@ -1,5 +1,13 @@
 # Registro de cambios
 
+## 2026-11-10
+- Consolidado guion visual de 23 páginas en Canva y copia Markdown en el repositorio.
+- Incorporadas nueve láminas conceptuales optimizadas e índice de estados.
+- Corregida edad: 30 en 2026, 41 en el año de trabajo 2037.
+- Preservados SUR, noticieros y geopolítica existentes; nueva redacción marcada como propuesta.
+- Registradas fechas antárticas pendientes, vestuario del Cono Sur, Contorno sin manos y última dirección visual del C-7.
+
+
 ## 2026-11-09
 - Noticieros dentro de la ficción ("Señal Austral"): escalada entre Rusia, EE. UU. y China en 2037 (año derivado) y guerra del hielo entre el Cono Sur y Australia–Nueva Zelanda. Geopolítica agregada a la biblia de continuidad.
 - Capítulo 1 "SUR": guion, narración, 25 planos, presupuesto de 195 créditos (Seedance 2.0 Mini + 2 planos Seedance 2.5) y prompts de imágenes iniciales. Continuidad: el humano original sobrevive por estar en el sur; el país no se nombra.

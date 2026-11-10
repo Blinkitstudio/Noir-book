@@ -8,6 +8,7 @@ Libro de ciencia ficción sobre Nuar, memoria heredada y coexistencia entre rép
 - [Archivo de desarrollo](desarrollo/archivo.md): capítulos, versiones y materiales anteriores, con su estado.
 - [Capítulo 1: SUR](produccion/capitulo-01-sur.md): guion, lista de planos, presupuesto y prompts.
 - [Noticieros: cómo empezó la guerra](produccion/noticiero-como-empezo.md): guion de los noticieros dentro de la ficción, mapas estilo Vox y prompts.
+- [Montaje de archivo del prólogo](produccion/montaje-archivo/README.md): scripts para volver a renderizarlo y todas las fuentes con licencia.
 - [Registro de cambios](CHANGELOG.md).
 
 Título de la historia: **Alias**. Protagonista: **Nuar**. Tres vidas y dos muertes; el cuerpo actual es el tercero.
@@ -16,6 +17,9 @@ Idioma del manuscrito: español. Formato de trabajo: Markdown, legible y editabl
 
 ## Contenido para redes
 Kit de edición de vlogs y reels, guía de estilo y aprendizajes en [contenido/](contenido/README.md).
+- [Estrategia](contenido/estrategia.md): qué publicar, cuándo, qué medir.
+- [Calendario 15–28 nov](contenido/calendario.md) con lo que hay que grabar.
+- [Publicar el prólogo](contenido/publicacion/alias-prologo.md): descripción, créditos y checklist.
 
 
 ## Guion visual y conceptos — actualización 2026-11-10

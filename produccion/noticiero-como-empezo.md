@@ -80,7 +80,7 @@ Mismo tratamiento visual que el archivo (grano, viñeta, parpadeo). Sin rótulos
 
 Dato real del titular 2025: el 26/03/2025 la Comisión Europea presentó la Estrategia de la Unión de Preparación, que recomienda a la población tener suministros para al menos 72 horas.
 
-**Créditos para el texto del post (obligatorio por las licencias CC BY):** "Archivo: U.S. DOE, Prelinger Archives, JFK Library, CDC, NOAA/CIRA, NASA SVS, U.S. DoD (dominio público); Lawrence Systems (CC BY 3.0); Ministerio de Defensa de la Federación Rusa y Servicio Estatal de Emergencias de Ucrania (CC BY 4.0), vía Wikimedia Commons."
+**Créditos para el texto del post:** los vigentes (v13) están en [`../contenido/publicacion/alias-prologo.md`](../contenido/publicacion/alias-prologo.md); fuentes completas y scripts en [`montaje-archivo/`](montaje-archivo/).
 
 Narración v5: la primera frase pasa a "Nos enseñaron a convivir con el fin del mundo" (elegida por Raúl) y la de los simulacros a "Después llegaron los simulacros. Una mesa, decían, podía salvarnos" (para no repetir "nos enseñaron").
 

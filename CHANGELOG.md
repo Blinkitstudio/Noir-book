@@ -6,7 +6,8 @@
 - Corregida edad: 30 en 2026, 41 en el año de trabajo 2037.
 - Preservados SUR, noticieros y geopolítica existentes; nueva redacción marcada como propuesta.
 - Registradas fechas antárticas pendientes, vestuario del Cono Sur, Contorno sin manos y última dirección visual del C-7.
-
+- Estrategia de contenido (señales de Instagram con fuentes, mezcla semanal para publicar a diario, horarios, KPIs, escenarios), calendario del 15 al 28 de noviembre con lista de grabación y guía para publicar el prólogo (descripción, créditos, etiqueta de IA).
+- Scripts del montaje de archivo del prólogo v13 (`produccion/montaje-archivo/`: build.py, mix.py, chequeo de agudos) con README de re-render y tabla completa de fuentes y licencias.
 
 ## 2026-11-09
 - Noticieros dentro de la ficción ("Señal Austral"): escalada entre Rusia, EE. UU. y China en 2037 (año derivado) y guerra del hielo entre el Cono Sur y Australia–Nueva Zelanda. Geopolítica agregada a la biblia de continuidad.

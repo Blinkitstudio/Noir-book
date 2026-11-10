@@ -84,6 +84,12 @@ Las plantillas de `edl.json`, `textos.json` y `mezcla.json` están en `plantilla
 - Voz **"Raul Albright"**, voice_id `iLCjJRTX0YL3XzRxFmfl`, modelo `eleven_v4`. Acepta etiquetas de emoción entre corchetes ([serio], [pausa], etc.).
 - En vlogs se usa solo para voces en off puntuales o para arreglar una palabra mal dicha. Avísale a Raúl cuando la uses: su voz real es la prioridad.
 
+## Estrategia y publicación
+- Qué publicar, cuándo y cómo medirlo: [`estrategia.md`](estrategia.md).
+- Plan día por día y lista de grabación: [`calendario.md`](calendario.md). Actualízalo cuando Raúl confirme o cambie algo.
+- Texto listo para cada post (descripción, créditos, etiqueta de IA): `publicacion/`. Cada pieza con material CC BY lleva sus créditos.
+- Montaje de archivo de ALIAS (scripts y fuentes): `../produccion/montaje-archivo/`.
+
 ## Reglas
 - No borres ni modifiques nada de `crudo/`. Todo lo generado va a `trabajo/` o `final/`.
 - No publiques en redes sin que Raúl lo pida y lo confirme.

@@ -38,6 +38,11 @@ No es animación: es **edición con material de archivo real** que escala décad
 
 Tratamiento: el archivo 4:3 va centrado dentro del 9:16 con textura de TV de tubo y fechas en Montserrat pequeña. El ritmo se acelera, los cortes se acortan y al final se corta el sonido de golpe.
 
+### Estado: prólogo v13 (2026-11-09)
+- 86.6 s (media `1e8f8be0-45ef-4914-a577-abc852c28dad`). El bloque 2025 deja las banderas: maniobras militares reales en Europa (Defender Europe 2025 y Saber Guardian 25, Ejército de EE. UU., dominio público) con el zócalo "EUROPA · 2025 · MANIOBRAS MILITARES EN TODO EL CONTINENTE", y gente llenando carritos en un supermercado (Montreal.TV, 2020, CC BY 3.0, ilustrativo y sin lugar ni fecha) bajo "LA UE PIDE A SUS CIUDADANOS PROVISIONES PARA 72 HORAS".
+- Audio: todas las tomas de voz normalizadas a -20 LUFS antes de mezclar, con fundidos de 30–60 ms; la base del proyector continúa atenuada en el bloque moderno; el ruido de fondo entra con fundido.
+- Corregido el encuadre de los videos verticales (recorte centrado).
+
 ### Estado: prólogo v10 (2026-11-09)
 - **ALIAS · PRÓLOGO**, 86.6 s (media `fb9b70f7-a893-446e-9e75-d3f49f457422`). Es la pieza previa a la intro "La Tierra · 2237".
 - Bloque moderno como noticiero de Señal Austral (EN VIVO + zócalos): 2025 · 72 horas (bandera de la UE) → 2025 · apagón ibérico (satélite NOAA, Lisboa) → PARÍS · protestas (chalecos amarillos 2019, sin fecha en pantalla) → 2031 · carrera por centros de datos y chips → 2036 · caen satélites → OCTUBRE · misiles.

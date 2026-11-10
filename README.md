@@ -27,3 +27,5 @@ Kit de edición de vlogs y reels, guía de estilo y aprendizajes en [contenido/]
 - [Índice de imágenes conceptuales](assets/conceptos/README.md): personajes, máquinas, transporte, caza y embarque; estados y limitaciones.
 - [Documento editable en Canva](https://www.canva.com/d/AaLr55X3H6BhZ_9): 23 páginas con imágenes integradas.
 - [Estado de la edición y decisiones pendientes](desarrollo/estado-guion-visual.md).
+
+- [Guion cinematográfico v0.1](manuscrito/guion/README.md): 24 escenas, Fountain y Canva A4; borrador independiente del dossier visual.

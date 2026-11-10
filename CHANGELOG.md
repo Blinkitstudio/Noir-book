@@ -1,6 +1,7 @@
 # Registro de cambios
 
 ## 2026-11-10
+- Creado guion cinematográfico v0.1: portada y ocho páginas, 24 escenas, Fountain editable y maquetación A4 en Canva. Nueva adaptación en borrador; se preservan SUR y el dossier visual.
 - Consolidado guion visual de 23 páginas en Canva y copia Markdown en el repositorio.
 - Incorporadas nueve láminas conceptuales optimizadas e índice de estados.
 - Corregida edad: 30 en 2026, 41 en el año de trabajo 2037.

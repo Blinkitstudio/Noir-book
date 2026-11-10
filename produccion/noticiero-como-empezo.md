@@ -38,6 +38,14 @@ No es animación: es **edición con material de archivo real** que escala décad
 
 Tratamiento: el archivo 4:3 va centrado dentro del 9:16 con textura de TV de tubo y fechas en Montserrat pequeña. El ritmo se acelera, los cortes se acortan y al final se corta el sonido de golpe.
 
+### Estado: prólogo v14 (2026-11-10)
+- 86.6 s, mismo audio y duración (media `fbdce227-78d4-4043-80ad-0c22923e3010`).
+- Abre con el hongo de Crossroads y su audio («Hay un destello…»); después el mapa de 1946.
+- Cronología: las pruebas dejan de ser «1954» (Castle) y pasan a «1946 · 1951» (Crossroads + Buster-Jangle, desierto de Nevada). La narración «Primero fueron pruebas… Después llegaron los simulacros» queda intacta (decisión de Raúl).
+- Kennedy (33.3–41.3 s): en lugar del barco fijo, cortes al ritmo de la frase con material real: foto U-2 de San Cristóbal → reconocimiento anotado → barcos de la cuarentena → destructor → línea de buques. **Falta el plano de Kennedy hablando**: lo descarga Raúl (no se generan imágenes de Kennedy con IA). La página de la Biblioteca JFK del discurso solo tiene el audio; para sincronizar labios hace falta el film del discurso en el tramo 8:39–8:49.
+- CTA intermedio 40–43 s: «GUÁRDALO · PARTE 2: 2237» (caja roja, franja negra inferior).
+- El degradado inferior pedido no se aplicó: los subtítulos ya van sobre la franja negra, fuera de la imagen.
+
 ### Estado: prólogo v13 (2026-11-09)
 - 86.6 s (media `1e8f8be0-45ef-4914-a577-abc852c28dad`). El bloque 2025 deja las banderas: maniobras militares reales en Europa (Defender Europe 2025 y Saber Guardian 25, Ejército de EE. UU., dominio público) con el zócalo "EUROPA · 2025 · MANIOBRAS MILITARES EN TODO EL CONTINENTE", y gente llenando carritos en un supermercado (Montreal.TV, 2020, CC BY 3.0, ilustrativo y sin lugar ni fecha) bajo "LA UE PIDE A SUS CIUDADANOS PROVISIONES PARA 72 HORAS".
 - Audio: todas las tomas de voz normalizadas a -20 LUFS antes de mezclar, con fundidos de 30–60 ms; la base del proyector continúa atenuada en el bloque moderno; el ruido de fondo entra con fundido.

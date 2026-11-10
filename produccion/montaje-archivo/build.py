@@ -14,19 +14,21 @@ SRC = {'reel25': 'moderno/reel25.src', 'def25v': 'moderno/def25v.src', 'convoy':
        'eu': 'moderno/eu.src', 'chips': 'moderno/chips.src', 'gj': 'moderno/gj.src', 'kit': 'moderno/kit.src', 'dct': 'moderno/dc_tour.src',
        'ibe': 'moderno/iberia.src', 'lis': 'moderno/lisboa.src', 'sat': 'moderno/sat_kill.src', 'tdr': 'moderno/tdrs.src',
        'tom': 'moderno/tomahawk.src', 'bal': 'moderno/bal.src', 'kyi': 'moderno/kyiv.src',
+       'NR': 'cuba/newsreel.ogv', 'BR': 'cuba/brink.webm', 'RG': 'fuentes/gov.doe.0800010_512kb.mp4',
        'CR': 'fuentes/gov.doe.0800002.ogv', 'CA': 'fuentes/gov.doe.0800013.mpeg', 'DC': 'fuentes/DuckandC1951_edit.mp4', 'RD': 'fuentes/Radiolog1961_edit.mp4'}
 # frases de la narración: (archivo, inicio, fin) — vo = vo_n.wav, vo2 = l13_n.wav
 VO = [('vo2', 0.00, 2.63), ('vo', 4.16, 11.04), ('vo2', 4.34, 9.36), ('vo', 17.44, 21.76), ('vo', 22.72, 27.68), ('vo', 28.64, 37.20)]
 # grupos: (fecha, segmentos[(fuente,inicio,dur[,fx])], vo_index | None, audio_archivo(fuente,inicio,dur,offset,traduccion) | None, sfx[(nombre,offset,vol)], tipo)
 G = [
- ('1946', [('CR', 140.0, 3.6)], 0, None, [], 'arch'),
+ # v14: abre con el hongo (gancho); las pruebas pasan a 1946 · 1951 (Crossroads + Buster-Jangle) para respetar la cronología
  ('1946', [('CR', 682.0, 3.4)], None, ('DC', 141.0, 2.6, 0.3, 'Hay un destello, más brillante que el sol...'), [('rumble', 0.0, 1.0)], 'arch'),
- ('1954', [('CA', 300.0, 2.4), ('CR', 722.0, 2.4), ('CA', 660.0, 2.6)], 1, None, [('rumble', 4.8, .7)], 'arch'),
+ ('1946', [('CR', 140.0, 3.6)], 0, None, [], 'arch'),
+ ('1946 · 1951', [('CR', 722.0, 2.4), ('RG', 1060.0, 2.4), ('RG', 1083.5, 2.6)], 1, None, [('rumble', 4.8, .7)], 'arch'),
  ('1951', [('DC', 281.4, 4.8)], None, ('DC', 281.4, 4.8, 0.0, 'Si hay una alerta, la escucharás antes de que explote la bomba.'), [], 'arch'),
  ('1951', [('DC', 185.0, 2.6), ('DC', 425.0, 2.8)], 2, None, [], 'arch'),
  ('1951', [('DC', 369.8, 3.8)], None, ('DC', 369.8, 3.8, 0.0, '¡Es una bomba! Agáchate y cúbrete.'), [], 'arch'),
  ('1961', [('RD', 286.0, 2.6), ('RD', 308.5, 2.3)], 3, None, [], 'arch'),
- ('', [('JFKCARD', 84.0, 8.0)], None, ('JFK', 521.6, 7.7, 0.15, '«…arriesgar el costo de una guerra nuclear mundial, en la que hasta los frutos de la victoria serían cenizas en nuestra boca.»'), [('hiss', 0.0, .05)], 'kennedy'),
+ ('', [('BR', 60.5, 2.5, 'mod'), ('NR', 157.5, 1.4), ('NR', 50.0, 1.5), ('NR', 57.3, 1.1), ('NR', 61.0, 1.5)], None, ('JFK', 521.6, 7.7, 0.15, '«…arriesgar el costo de una guerra nuclear mundial, en la que hasta los frutos de la victoria serían cenizas en nuestra boca.»'), [('hiss', 0.0, .05)], 'kennedy'),
  ('1962', [('RD', 545.0, 2.7), ('RD', 795.0, 2.7)], 4, None, [('rumble', 0.0, .6)], 'arch'),
  ('', [], None, None, [('hiss', 0.0, .04)], 'futuro2'),
  ('', [('BARS', 0, 0.6), ('BLACK', 0, 2.6)], None, None, [('pitido', 0.0, .18), ('rumble', 0.65, .8)], 'aliastitle'),
@@ -140,6 +142,8 @@ for fecha, ss, vi, aa, sfx, tipo in G:
         ev.append(f"Dialogue: 4,{ts(g0+.1)},{ts(t)},Fut,,0,0,0,,{{\\an8\\pos(540,330)\\fad(300,200)}}200 AÑOS DESPUÉS")
         ev.append(f"Dialogue: 4,{ts(g0+.6)},{ts(t)},Fut,,0,0,0,,{{\\an8\\pos(540,400)\\fs40\\fsp14\\fad(300,200)}}LA TIERRA · 2237")
 TOTAL = t
+# CTA intermedio (v14): 3 s, en la franja negra inferior para no tapar subtítulos
+ev.append(f"Dialogue: 8,{ts(40.0)},{ts(43.0)},Stamp,,0,0,0,,{{\\an5\\pos(540,1700)\\fs58\\frz-3\\fscx130\\fscy130\\t(0,120,\\fscx100\\fscy100)\\fad(0,150)}}GUÁRDALO · PARTE 2: 2237")
 ev.append(f"Dialogue: 8,{ts(0.2)},{ts(3.4)},Nota,,0,0,0,,{{\\an8\\pos(540,200)\\fs30\\fsp12\\fad(300,300)}}ALIAS · PRÓLOGO")
 # subtítulos de la narración (por frase, con tiempos reales de la voz)
 LINES = [(0, 'Nos enseñaron a convivir con el fin del mundo.', 0.0, 2.63), (1, 'Primero fueron pruebas. Islas lejanas, desiertos vacíos.', 4.16, 8.36), (1, 'Nadie pensaba que caería sobre una ciudad.', 8.88, 11.04),

@@ -1,4 +1,4 @@
-# Fuentes del prólogo (v13)
+# Fuentes del prólogo (v14)
 
 Regla: solo dominio público, CC0, CC BY 3.0 o CC BY 4.0 (CC BY exige citar al autor en el post). Nada CC BY-SA. Material moderno sin rótulos de lugar ni etiquetas políticas: es ilustrativo dentro de la ficción.
 
@@ -6,7 +6,9 @@ Regla: solo dominio público, CC0, CC BY 3.0 o CC BY 4.0 (CC BY exige citar al a
 | Clave | Material | Año | Licencia | Enlace |
 |---|---|---|---|---|
 | CR | Nuclear Test Film – Project Crossroads (DOE) | 1946 | CC0 | https://archive.org/details/gov.doe.0800002 |
-| CA | Nuclear Test Film – Operation Castle (DOE) | 1954 | CC0 | https://archive.org/details/gov.doe.0800013 |
+| RG | Nuclear Test Film – Operation Ranger / Buster-Jangle (DOE), min 17:40–18:06 | 1951 | CC0 | https://archive.org/details/gov.doe.0800010 |
+| NR | Universal Newsreel «The Cuban Crisis» (25/10/1962): fotos de reconocimiento y barcos de la cuarentena | 1962 | CC0 | https://commons.wikimedia.org/wiki/File:1962-10-25_The_Cuban_Crisis.ogg |
+| BR | «To the Brink: JFK and the Cuban Missile Crisis» (National Archives / JFK Library): foto U-2 de San Cristóbal, 14/10/1962 | 2012 | Dominio público | https://commons.wikimedia.org/wiki/File:To_the_Brink-_JFK_and_the_Cuban_Missile_Crisis.webm |
 | DC | Duck and Cover (Prelinger) | 1951 | Dominio público | https://archive.org/details/DuckandC1951 |
 | RD | Radiological Defense (Prelinger) | 1961 | Dominio público | https://archive.org/details/Radiolog1961 |
 | JFK | Discurso de Kennedy, 22/10/1962, min 8:41–8:49, sin alterar | 1962 | Dominio público | https://www.jfklibrary.org/learn/about-jfk/historic-speeches/address-during-the-cuban-missile-crisis |
@@ -28,7 +30,7 @@ Regla: solo dominio público, CC0, CC BY 3.0 o CC BY 4.0 (CC BY exige citar al a
 | bal | OCTUBRE · batería costera | CC BY 4.0 | Ministerio de Defensa de la Federación Rusa | https://commons.wikimedia.org/wiki/File%3A536th_Coastal_Missile_Artillery_Brigade%27s_%22Bal%22_coastal_missile_system_firing_%282021-11-19%29.webm |
 | kyi | OCTUBRE · edificio dañado | CC BY 4.0 | Servicio Estatal de Emergencias de Ucrania | https://commons.wikimedia.org/wiki/File%3ADestructions_in_Kyiv_after_Russian_attack%2C_2025-07-10_%28002%29.webm |
 
-Descartados en versiones anteriores (no se citan): bandera UE (Envagyokabela), kit del CDC, dirigible sobre el Utah Data Center (EFF), helicóptero en Kyiv, reel Defender 25.
+Descartados en versiones anteriores (no se citan): Operation Castle 1954 (DOE, salió en v14 para respetar la cronología), bandera UE (Envagyokabela), kit del CDC, dirigible sobre el Utah Data Center (EFF), helicóptero en Kyiv, reel Defender 25.
 
 ## Voz y sonido
 - Narración y cierre: voz clonada de Raúl en ElevenLabs (requiere etiqueta de IA en Instagram).

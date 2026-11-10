@@ -29,3 +29,9 @@ Kit de edición de vlogs y reels, guía de estilo y aprendizajes en [contenido/]
 - [Estado de la edición y decisiones pendientes](desarrollo/estado-guion-visual.md).
 
 - [Guion cinematográfico v0.1](manuscrito/guion/README.md): 24 escenas, Fountain y Canva A4; borrador independiente del dossier visual.
+
+## Manuscrito para leer y continuar
+La preferencia del autor es trabajar primero la historia en prosa, no las indicaciones de rodaje.
+- [Manuscrito narrativo](manuscrito/alias-manuscrito-lectura.md).
+- [Editar historia en Canva](https://www.canva.com/d/HD-pSkBS_nc7GNS).
+El guion cinematográfico y el dossier visual quedan como documentos auxiliares.

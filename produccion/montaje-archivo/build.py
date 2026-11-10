@@ -28,7 +28,7 @@ G = [
  ('1951', [('DC', 185.0, 2.6), ('DC', 425.0, 2.8)], 2, None, [], 'arch'),
  ('1951', [('DC', 369.8, 3.8)], None, ('DC', 369.8, 3.8, 0.0, '¡Es una bomba! Agáchate y cúbrete.'), [], 'arch'),
  ('1961', [('RD', 286.0, 2.6), ('RD', 308.5, 2.3)], 3, None, [], 'arch'),
- ('', [('BR', 60.5, 2.5, 'mod'), ('NR', 157.5, 1.4), ('NR', 50.0, 1.5), ('NR', 57.3, 1.1), ('NR', 61.0, 1.5)], None, ('JFK', 521.6, 7.7, 0.15, '«…arriesgar el costo de una guerra nuclear mundial, en la que hasta los frutos de la victoria serían cenizas en nuestra boca.»'), [('hiss', 0.0, .05)], 'kennedy'),
+ ('', [('BR', 13.0, 2.5, 'jfk'), ('BR', 60.5, 1.4, 'mod'), ('NR', 50.0, 1.5), ('NR', 57.3, 1.1), ('NR', 61.0, 1.5)], None, ('JFK', 521.6, 7.7, 0.15, '«…arriesgar el costo de una guerra nuclear mundial, en la que hasta los frutos de la victoria serían cenizas en nuestra boca.»'), [('hiss', 0.0, .05)], 'kennedy'),
  ('1962', [('RD', 545.0, 2.7), ('RD', 795.0, 2.7)], 4, None, [('rumble', 0.0, .6)], 'arch'),
  ('', [], None, None, [('hiss', 0.0, .04)], 'futuro2'),
  ('', [('BARS', 0, 0.6), ('BLACK', 0, 2.6)], None, None, [('pitido', 0.0, .18), ('rumble', 0.65, .8)], 'aliastitle'),
@@ -87,6 +87,10 @@ for fecha, ss, vi, aa, sfx, tipo in G:
             run(f'ffmpeg -v error -y -ss {a} -i {SRC["CR"]} -ss 521.6 -t {d} -i jfk/jfk.mp3 -filter_complex "[0:v]setpts=PTS/0.6,scale=1188:891,crop=1080:810,eq=saturation=0.5:contrast=1.1:brightness=-0.22,noise=alls=16:allf=t+u,vignette=PI/4,fps=30,pad={W}:{H}:0:{BY}:black[bg];[1:a]highpass=f=250,lowpass=f=3500,showwaves=s=900x200:mode=cline:rate=30:colors=0xE6E6E6:scale=sqrt[w];[bg][w]overlay=90:1040,format=yuv420p[v]" -map "[v]" -t {d} -c:v libx264 -crf 18 -preset fast {out}')
         elif s == 'CARD':
             run(f'ffmpeg -v error -y -f lavfi -i color=c=0x08090b:s={W}x{H}:r=30:d={d} -vf "noise=alls=26:allf=t+u,eq=brightness=-0.04,format=yuv420p" -c:v libx264 -crf 18 -preset fast {out}')
+        elif fx == 'jfk':  # Kennedy en «To the Brink»: recorte que deja fuera el rótulo «October 22, 1962» del National Archives
+            vf = (f"crop=1160:870:380:20,scale=1080:810,eq=saturation=0.75:contrast=1.08:brightness='0.012*sin(2*PI*t*9)':eval=frame,"
+                  f"noise=alls=14:allf=t+u,vignette=PI/5,fps=30,pad={W}:{H}:0:{BY}:black,format=yuv420p")
+            run(f'ffmpeg -v error -y -ss {a} -i {SRC[s]} -t {d} -an -vf "{vf}" -c:v libx264 -crf 18 -preset fast {out}')
         else:
             if fx in ('mod', 'modR', 'modL'):
                 cx = 'in_w-out_w' if fx == 'modR' else ('0' if fx == 'modL' else '(in_w-out_w)/2')

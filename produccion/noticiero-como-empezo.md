@@ -38,6 +38,10 @@ No es animación: es **edición con material de archivo real** que escala décad
 
 Tratamiento: el archivo 4:3 va centrado dentro del 9:16 con textura de TV de tubo y fechas en Montserrat pequeña. El ritmo se acelera, los cortes se acortan y al final se corta el sonido de golpe.
 
+### Estado: prólogo v15 (2026-11-10)
+- Media `24f8f5c6-fb52-485d-94f8-5597060365c3`. Igual que v14 más 2,5 s de Kennedy en el despacho (33,3–35,8 s), tomado de «To the Brink» (National Archives, dominio público; archivo aportado por Raúl), recortado sin el rótulo del NARA. Después: San Cristóbal → flota → destructor → buques.
+- Sincronía: es otro tramo del mismo discurso del 22/10/1962 («Within the past week, unmistakable evidence…»), así que los labios no coinciden exactamente con «…risk the costs of…». Para sincronía exacta haría falta el video completo del discurso (8:39–8:49).
+
 ### Estado: prólogo v14 (2026-11-10)
 - 86.6 s, mismo audio y duración (media `fbdce227-78d4-4043-80ad-0c22923e3010`).
 - Abre con el hongo de Crossroads y su audio («Hay un destello…»); después el mapa de 1946.

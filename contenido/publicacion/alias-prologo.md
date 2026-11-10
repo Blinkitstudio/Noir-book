@@ -1,6 +1,6 @@
 # Publicar · ALIAS · Prólogo (1/2)
 
-- **Video:** v14, 86.6 s, 9:16 (biblioteca de Higgsfield, media `fbdce227-78d4-4043-80ad-0c22923e3010`). Si llega el plano de Kennedy, se publica la v15.
+- **Video:** v15, 86.6 s, 9:16 (biblioteca de Higgsfield, media `24f8f5c6-fb52-485d-94f8-5597060365c3`).
 - **Cuándo:** domingo 15/11/2026, 21:00 hora de Argentina.
 - **Formato:** reel. Compartir también en el feed.
 

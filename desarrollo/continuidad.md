@@ -110,3 +110,17 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - Mantener el chaleco táctico, ropa térmica fina, cargos, botas de carbono, lentillas y monitor de salud/clima de esta variante. No imponerle automáticamente el chaleco o los soportes de otras iteraciones.
 - Se conservan tres referencias diferenciadas: vestuario cotidiano, uniforme de campo sin exoesqueleto y uniforme con exoesqueleto conectado.
 - Las fotografías del autor siguen siendo la referencia facial principal. Valores de pantallas ilustrativos.
+
+
+## Cultivo de cuerpos y reproducción — explicación aprobada, 2026-11-10
+- Los cuerpos cultivados sí son organismos vivos. La limitación consiste en producir descendencia y desarrollar un individuo nuevo, no en crear tejido vivo.
+- La tecnología de conservación reconstruye cuerpos adultos a partir de patrones humanos existentes. Cultiva tejidos sobre una estructura de desarrollo controlado, con nutrientes, señales químicas, componentes artificiales y maquinaria necesaria durante la formación.
+- Los cuerpos remanentes no producen células reproductivas viables: las modificaciones de mantenimiento y no envejecimiento interfieren con la formación de óvulos y espermatozoides. Es una incompatibilidad específica de la tecnología ficticia del mundo, no una afirmación científica de que toda longevidad implique esterilidad.
+- El sistema nervioso cultivado está preparado para recibir una mente existente y requiere ese patrón para completar la integración. Este procedimiento no reproduce el desarrollo de un cerebro infantil que forme una identidad desde el comienzo.
+- Recuperar la reproducción sigue siendo posible como objetivo de investigación, pero difícil, no resuelto y poco financiado. La persistencia de las mentes y el reemplazo corporal reducen la urgencia social percibida. No afirmar imposibilidad absoluta.
+- Las máquinas pueden desarrollar identidades nuevas mediante otra vía. No confundir reproducción biológica, cultivo de cuerpos e individuación de conciencias artificiales.
+
+## Sectores y colonias — contexto aportado por el autor, 2026-11-10
+- Las ciudades se dividen en sectores de seguridad. Las cuatro categorías sugeridas por el asistente siguen siendo una propuesta, no una clasificación aprobada.
+- Cualquiera puede salir; el retorno no está garantizado. La frase del autor «sin un reinicio de otro remanente» aún requiere precisar el mecanismo; no fijar sustitución de conciencia ni cuerpo nuevo como interpretación confirmada.
+- Hay pequeñas colonias fuera de los sectores, desprotegidas del clima y sin suministros garantizados. No asumir todavía la causa de que sus habitantes se establecieran allí.

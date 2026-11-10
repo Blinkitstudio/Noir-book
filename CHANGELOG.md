@@ -37,3 +37,8 @@
 ## 2026-11-10 — Variante de campo sin exoesqueleto
 - Guardada la ficha seleccionada por el autor, conservando las otras variantes de vestuario.
 - Exclusión expresa del arma visible y su correa en README y continuidad; el arma queda pendiente de diseño separado.
+
+## 2026-11-10 — Cultivo corporal y reproducción
+- Aprobada la distinción entre cuerpos vivos reconstruidos para mentes existentes y descendencia nueva.
+- Registradas las limitaciones reproductivas ficticias y la investigación abierta con escasa prioridad.
+- Recogido el contexto de sectores de seguridad y colonias exteriores; el mecanismo de reinicio al regresar queda sin resolver.

@@ -38,7 +38,10 @@ No es animación: es **edición con material de archivo real** que escala décad
 
 Tratamiento: el archivo 4:3 va centrado dentro del 9:16 con textura de TV de tubo y fechas en Montserrat pequeña. El ritmo se acelera, los cortes se acortan y al final se corta el sonido de golpe.
 
-### Estado: corte v3 (2026-11-09)
+### Estado: corte v7 (2026-11-09)
+- v7: 66.1 s (media `3f57d926-5b69-4403-a180-3af8439bb940`). Bloque del futuro con material real moderno y el mismo tratamiento visual. 2025 se presenta como fragmento de Señal Austral (EN VIVO, zócalo "ÚLTIMA HORA · BRUSELAS · 26/03/2025 — LA COMISIÓN EUROPEA PIDE PROVISIONES PARA 72 HORAS") sobre el kit de emergencia del CDC. Fechas sincronizadas con la voz (OCTUBRE cae con "un octubre"). Audio: sin teletipo sintético, con de-clic y reducción de ruido en el archivo, de-esser en la voz y -15.5 LUFS.
+
+### Corte v3
 - v3: 64.5 s (media `7400858b-8748-4385-9b5d-6a7ab3123539`). Kennedy integrado: audio real del 22/10/1962, minuto 8:41–8:49 ("…risk the costs of worldwide nuclear war, in which even the fruits of victory would be ashes in our mouth"), sin alterar, sobre la tarjeta 1962 con onda de audio y subtítulo. Cierre con la voz de Raúl: "Sígueme para ver cómo sigue esta historia. Y guarda este video: así le llega a más gente", con SÍGUEME · @raulalbright · GUARDA EL VIDEO.
 
 ### Corte v1

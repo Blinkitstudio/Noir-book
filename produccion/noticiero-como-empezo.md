@@ -47,6 +47,28 @@ Tratamiento: el archivo 4:3 va centrado dentro del 9:16 con textura de TV de tub
 - Faltan: el discurso de Kennedy (hay una tarjeta "22 · X · 1962" que lo reserva), el Noticiero A con el presentador (sigue a la tarjeta SEÑAL AUSTRAL) y música definitiva.
 - Costo: 0 créditos de Higgsfield; unos 636 créditos de ElevenLabs por la narración.
 
+
+### Material moderno (bloque 2025–OCTUBRE, v5)
+Mismo tratamiento visual que el archivo (grano, viñeta, parpadeo). Sin rótulos de lugar en pantalla.
+
+| Plano | Fuente (Wikimedia Commons) | Licencia | Autor a citar |
+|---|---|---|---|
+| 2025 · kit de emergencia | Recipe For Preparedness – Kit Essentials | Dominio público | CDC (EE. UU.) |
+| 2031 · servidores y refrigeración | Data Center Tour & Technical Deep Dive… | CC BY 3.0 | Lawrence Systems |
+| 2034 · península ibérica a oscuras | Power Outages in Spain and Portugal (CIRA 2025-04-29, nolabels portrait) | Dominio público | CSU/CIRA y NOAA/NESDIS |
+| 2034 · tráfico sin semáforos | Trânsito sem semáforos em frente à CUF Tejo, Lisboa | CC0 | Feliperpv |
+| 2036 · intercepción de satélite | SM-3 missile launches and intercepts USA 193 satellite | Dominio público | Departamento de Defensa de EE. UU. |
+| 2036 · flota de satélites | Tracking Data Relay Satellite (TDRS) Orbital Fleet… | Dominio público | NASA Scientific Visualization Studio |
+| OCTUBRE · lanzamiento naval | USS Spruance (DDG 111) Fires a Tomahawk… | Dominio público | Departamento de Defensa de EE. UU. |
+| OCTUBRE · batería costera | 536th Coastal Missile Artillery Brigade's "Bal"… firing (2021-11-19) | CC BY 4.0 | Ministerio de Defensa de la Federación Rusa |
+| OCTUBRE · edificio quemado | Destructions in Kyiv after Russian attack, 2025-07-10 (002) | CC BY 4.0 | Servicio Estatal de Emergencias de Ucrania |
+
+Dato real del titular 2025: el 26/03/2025 la Comisión Europea presentó la Estrategia de la Unión de Preparación, que recomienda a la población tener suministros para al menos 72 horas.
+
+**Créditos para el texto del post (obligatorio por las licencias CC BY):** "Archivo: U.S. DOE, Prelinger Archives, JFK Library, CDC, NOAA/CIRA, NASA SVS, U.S. DoD (dominio público); Lawrence Systems (CC BY 3.0); Ministerio de Defensa de la Federación Rusa y Servicio Estatal de Emergencias de Ucrania (CC BY 4.0), vía Wikimedia Commons."
+
+Narración v5: la primera frase pasa a "Nos enseñaron a convivir con el fin del mundo" (elegida por Raúl) y la de los simulacros a "Después llegaron los simulacros. Una mesa, decían, podía salvarnos" (para no repetir "nos enseñaron").
+
 ### Reglas para el archivo real
 - Solo material de **dominio público** o con licencia comprobada, con la fuente anotada.
 - **Las personas reales nunca dicen nada que no dijeron.** No se doblan, no se recortan para cambiar el sentido y no se usan para anunciar la guerra de 2037. El archivo real termina en 1962; lo que viene después es ficción, con fechas y titulares inventados.

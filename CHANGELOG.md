@@ -23,3 +23,7 @@
 - Recogidas reglas del mundo, lenguaje, arquitectura, biología, infraestructura compartida y flashbacks.
 - Registrados materiales previos y contradicciones descartadas; binarios todavía no incorporados.
 - Elegido Markdown como formato de trabajo por facilidad de lectura, edición e historial en GitHub.
+
+## 2026-11-10 — Vestuario cotidiano de Nuar
+- Registrada la ficha aprobada de abrigo clásico modernizado, cargos técnicos y botas de carbono.
+- Confirmado el término remanentes en continuidad; propuestas de ocupación separadas del canon.

@@ -75,3 +75,12 @@ Fecha: 2026-11-09. Fuente: decisiones del autor en la conversación de desarroll
 - Nuar no accede a centros de datos. En sus escenas mostrar fachadas, refrigeración, accesos y perímetros desde fuera.
 - Nuevo documento: `manuscrito/guion-visual-consolidado.md`. Contiene **alternativas literarias nuevas**, no sustituye automáticamente `00-introduccion.md` ni `produccion/capitulo-01-sur.md`.
 - El borrador SUR aún contiene elementos por armonizar: sala de servidores interior, uniformes sin insignias y abrigos voluminosos. Conservar el original y corregirlos al aprobar el montaje definitivo.
+
+
+## Remanentes y vestuario cotidiano — decisiones del autor, 2026-11-10
+- **Remanentes** sustituye a réplicas/replicantes como denominación de los seres de mente heredada humana. ALIAS sigue siendo el título. Los términos anteriores en borradores son históricos y deberán armonizarse al editarlos.
+- Vestuario cotidiano aprobado de Nuar: `assets/conceptos/nuar-vestuario-cotidiano-2237.jpg`. Sustituye las propuestas anteriores de ropa cotidiana.
+- Nuar conserva el gusto por el corte clásico debido a sus recuerdos. Abrigo largo oscuro de solapas clásicas, con materiales térmicos modernos, cierres discretos y construcción técnica; pantalones cargo tecnológicos con bolsillos planos y rodillas articuladas.
+- Botas ligeras todoterreno de tecnología de conflicto, con refuerzos de compuesto de fibra de carbono, tobillo flexible y suela de agarre. No denominar aleación a la fibra de carbono; no establecer todavía que las botas físicas sobrevivieron de la segunda vida.
+- Mantener fidelidad a las fotografías reales del autor, sin estilizar ni endurecer sus facciones. El cuerpo actual tiene apariencia orgánica; no trasladarle las modificaciones visibles del híbrido secundario.
+- La ocupación de Nuar sigue pendiente. Las opciones de `desarrollo/ocupacion-nuar-propuestas.md` son propuestas, no canon.

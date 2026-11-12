@@ -1,5 +1,8 @@
 # Registro de cambios
 
+## 2026-11-12
+- Añadido el concepto visual del barrio bajo y una nota de economía en desarrollo, pendiente de decisión del autor.
+
 ## 2026-11-10
 - Making of de ALIAS (reel 86 s): origen real contado por Raúl (un modelo de IA idéntico a él → los remanentes), mundo actual, inspiraciones y fichas de cada máquina.
 - Documental «Me llaman Nuar» v1: narrado por Nuar con la voz de Raúl, artes conceptuales con paneo y 4 láminas animadas; versión horizontal (2:25) y reel (1:31).

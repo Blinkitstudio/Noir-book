@@ -5,6 +5,7 @@ Libro de ciencia ficción sobre Nuar, memoria heredada y coexistencia entre rép
 ## Documentos
 - [Introducción](manuscrito/00-introduccion.md): borrador literario vigente, sujeto a revisión del autor.
 - [Biblia de continuidad](desarrollo/continuidad.md): decisiones confirmadas y cuestiones abiertas.
+- [Economía de ALIAS 2237](desarrollo/economia-2237-ideas.md): ideas en desarrollo y concepto visual del barrio bajo.
 - [Archivo de desarrollo](desarrollo/archivo.md): capítulos, versiones y materiales anteriores, con su estado.
 - [Capítulo 1: SUR](produccion/capitulo-01-sur.md): guion, lista de planos, presupuesto y prompts.
 - [Noticieros: cómo empezó la guerra](produccion/noticiero-como-empezo.md): guion de los noticieros dentro de la ficción, mapas estilo Vox y prompts.

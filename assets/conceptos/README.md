@@ -87,3 +87,11 @@ Referencia vigente guardada por indicación del autor el 2026-11-10. Conexión d
 ![Uniforme de campo sin exoesqueleto; arma mostrada excluida del canon](nuar-uniforme-campo-sin-exoesqueleto-2237.jpg)
 
 Ficha seleccionada expresamente por el autor el 2026-11-10. Se conserva la imagen de referencia tal como fue suministrada, con la exclusión anterior documentada. Esta variante convive con el exoesqueleto de campo y con el vestuario cotidiano; no los reemplaza. Incluye chaleco táctico de esta ficha, uniforme térmico fino, cargos, botas de carbono, lentillas digitales y monitor de estado y entorno. Para identidad facial prevalecen las fotografías reales del autor sobre el retrato generado.
+
+## Barrio bajo · ALIAS 2237
+
+Estado: **ARTE CONCEPTUAL**.
+
+![Barrio bajo de ALIAS 2237](barrio-bajo-2237.jpg)
+
+Pasarela nevada, comercio de luz cálida, transporte elevado y mantenimiento automatizado. Ver [economía en exploración](../../desarrollo/economia-2237-ideas.md).
